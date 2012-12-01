@@ -1,0 +1,33 @@
+# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# departamentos
+Tumbes|254|64|204|0
+Piura|253|142|236|0
+Lambayeque|252|83|331|0
+La Libertad|251|165|424|0
+Cajamarca|250|236|368|0
+Amazonas|249|252|228|0
+San Martín|248|323|327|0
+Loreto|247|414|200|0
+Ancash|246|199|456|0
+Huánuco|245|370|452|0
+Lima|244|308|536|0
+Pasco|243|397|491|0
+Junín|242|396|538|0
+Ucayali|241|485|492|0
+Ica|240|363|653|0
+Huancavelica|239|411|619|0
+Ayacucho|238|429|687|0
+Apurímac|237|496|669|0
+Cusco|236|495|593|0
+Madre de Dios|235|600|577|0
+Arequipa|234|532|736|0
+Puno|233|627|686|0
+Moquegua|232|544|822|0
+Tacna|231|606|839|0
+# paises limitrofes
+ECUADOR|230|250|90|0
+COLOMBIA|229|540|50|0
+BRASIL|228|650|350|0
+BOLIVIA|227|730|700|90
+CHILE|226|638|885|0
+# fin

@@ -1,0 +1,8 @@
+[Activity]
+name = Conozco Peru
+activity_version = 7
+host_version = 1
+bundle_id = uy.edu.fing.geirea.conozcoperu
+icon = activity
+exec = sugar-activity activity.Activity
+license = GPL+
