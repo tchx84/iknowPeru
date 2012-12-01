@@ -23,6 +23,8 @@ import sys, pygame, random, os
 import olpcgames
 import gtk
 
+from gettext import gettext as _
+
 RADIO = 10
 RADIO2 = RADIO**2
 XMAPAMAX = 786
@@ -420,7 +422,7 @@ class ConozcoUy():
         self.pantalla.blit(self.terron,
                            (int(20*scale+shift_x),
                             int(20*scale+shift_y)))
-        self.mostrarTexto("Acerca de Conozco Peru",
+        self.mostrarTexto(_("I know about Peru"),
                           self.fuente40,
                           (int(600*scale+shift_x),int(100*scale+shift_y)),
                           (255,255,255))
@@ -434,7 +436,7 @@ class ConozcoUy():
                               (155,155,255))
             yLinea = yLinea + int(40*scale)
         f.close()
-        self.mostrarTexto("Presione cualquier tecla para volver",
+        self.mostrarTexto(_("Press any key to return"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -453,11 +455,11 @@ class ConozcoUy():
         global scale, shift_x, shift_y
         """Pantalla con el menu principal."""
         self.pantalla.fill((0,0,0))
-        self.mostrarTexto("Conozco Peru",
+        self.mostrarTexto(_("I know Peru"),
                           self.fuente40,
                           (int(600*scale+shift_x),int(100*scale+shift_y)),
                           (255,255,255))
-        self.mostrarTexto("Juego",
+        self.mostrarTexto(_("Game"),
                           self.fuente40,
                           (int(300*scale+shift_x),int(200*scale+shift_y)),
                           (200,100,100))
@@ -471,7 +473,7 @@ class ConozcoUy():
                               (int(300*scale+shift_x),yLista),
                               (200,100,100))
             yLista += int(50*scale)
-        self.mostrarTexto("Exploro",
+        self.mostrarTexto(_("Explore"),
                           self.fuente40,
                           (int(900*scale+shift_x),int(200*scale+shift_y)),
                           (100,100,200))
@@ -488,14 +490,14 @@ class ConozcoUy():
         self.pantalla.fill((20,20,20),
                            (int(10*scale+shift_x),int(801*scale+shift_y),
                             int(590*scale),int(48*scale)))
-        self.mostrarTexto("Sobre este juego",
+        self.mostrarTexto(_("About this game"),
                           self.fuente40,
                           (int(300*scale+shift_x),int(825*scale+shift_y)),
                           (100,200,100))
         self.pantalla.fill((20,20,20),
                            (int(610*scale+shift_x),int(801*scale+shift_y),
                             int(590*scale),int(48*scale)))
-        self.mostrarTexto("Salir",
+        self.mostrarTexto(_("Leave"),
                           self.fuente40,
                           (int(900*scale+shift_x),int(825*scale+shift_y)),
                           (100,200,100))
@@ -883,7 +885,7 @@ class ConozcoUy():
                                         int(26*scale+shift_y),
                                         int(200*scale),
                                         int(48*scale)))
-        self.mostrarTexto("Terminar",
+        self.mostrarTexto(_("End"),
                           self.fuente40,
                           (int(1075*scale+shift_x),
                            int(50*scale+shift_y)),
@@ -1126,7 +1128,7 @@ class ConozcoUy():
         # cuadro 1: nave llegando
         self.pantalla.blit(self.tierra,(int(200*scale+shift_x),
                                         int(150*scale+shift_y)))
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto(_("Press any key to skip"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1174,7 +1176,7 @@ class ConozcoUy():
             textrect.center = (int(557*scale+shift_x),yLinea)
             self.pantalla.blit(text, textrect)
             yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto(_("Press any key to skip"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1200,7 +1202,7 @@ class ConozcoUy():
                                         int(215*scale+shift_y)))
         self.pantalla.blit(self.alertarojo,(int(459*scale+shift_x),
                                             int(297*scale+shift_y)))
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto(_("Press any key to skip"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1253,7 +1255,7 @@ class ConozcoUy():
             textrect.center = (int(557*scale+shift_x),yLinea)
             self.pantalla.blit(text, textrect)
             yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto(_("Press any key to skip"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1276,7 +1278,7 @@ class ConozcoUy():
         # cuadro 5: explota nave
         self.pantalla.blit(self.tierra,(int(200*scale+shift_x),
                                         int(150*scale+shift_y)))
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto(_("Press any key to skip"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
@@ -1336,7 +1338,7 @@ class ConozcoUy():
             textrect.center = (int(557*scale+shift_x),yLinea)
             self.pantalla.blit(text, textrect)
             yLinea = yLinea + self.fuente32.get_height()+int(10*scale)
-        self.mostrarTexto("Presione cualquier tecla para saltear",
+        self.mostrarTexto(_("Press any key to skip"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
                           (255,155,155))
