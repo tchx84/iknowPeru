@@ -43,7 +43,7 @@ DYNAVE = 200
 CAMINODATOS = "datos"
 ARCHIVODEPTOS = "departamentos"
 ARCHIVOLUGARES = "ciudades"
-ARCHIVONIVELES = "niveles.txt"
+ARCHIVONIVELES = "niveles"
 ARCHIVOEXPLORACIONES = "exploraciones"
 ARCHIVORIOS = "rios"
 ARCHIVOCUCHILLAS = "cuchillas"
@@ -333,50 +333,43 @@ class ConozcoUy():
         self.listaMal = list()
         self.listaDespedidas = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVONIVELES),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            if linea[0] == "[":
-                # empieza nivel
-                nombreNivel = linea.strip("[]\n")
-                nuevoNivel = Nivel(nombreNivel)
-                self.listaNiveles.append(nuevoNivel)
-                linea = f.readline()
-                continue
-            if linea.find("=") == -1:
-                linea = f.readline()
-                continue         
-            [var,valor] = linea.strip().split("=")
-            if var.startswith("Prefijo"):
-                self.listaPrefijos.append(unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("Sufijo"):
-                self.listaSufijos.append(unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("Correcto"):
-                self.listaCorrecto.append(unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("Mal"):
-                self.listaMal.append(unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("Despedida"):
-                self.listaDespedidas.append(unicode(valor.strip(),'iso-8859-1'))
-            elif var.startswith("dibujoInicial"):
-                listaDibujos = valor.split(",")
-                for i in listaDibujos:
-                    nuevoNivel.dibujoInicial.append(i.strip())
-            elif var.startswith("nombreInicial"):
-                listaNombres = valor.split(",")
-                for i in listaNombres:
-                    nuevoNivel.nombreInicial.append(i.strip())
-            elif var.startswith("Pregunta"):
-                [texto,tipo,respuesta,ayuda] = valor.split("|")
-                nuevoNivel.preguntas.append(
-                    (unicode(texto.strip(),'iso-8859-1'),
-                     int(tipo),
-                     unicode(respuesta.strip(),'iso-8859-1'),
-                     unicode(ayuda.strip(),'iso-8859-1')))
-            linea = f.readline()
-        f.close()
+        r_path = os.path.join(CAMINODATOS,ARCHIVONIVELES + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVONIVELES, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVONIVELES,)
+
+        if f:
+            levels = {}
+            if hasattr(f, 'categories'):
+                for c in f.categories:
+                    levels[c] = Nivel(c)
+                self.listaNiveles += [levels[nombreNivel] for nombreNivel in f.categories]
+            if hasattr(f, 'Prefixes'):
+                self.listaPrefijos += f.Prefixes
+            if hasattr(f, 'Suffixes'):
+                self.listaSufijos += f.Suffixes
+            if hasattr(f, 'Correct'):
+                self.listaCorrecto += f.Correct
+            if hasattr(f, 'Bad'):
+                self.listaMal += f.Bad
+            if hasattr(f, 'farewell'):
+                self.listaDespedidas += f.farewell
+            if hasattr(f, 'dibujoInicial'):
+                for i in f.dibujoInicial:
+                    nuevoNivel = levels[i]    
+                    nuevoNivel.dibujoInicial += f.dibujoInicial[i]
+            if hasattr(f, "nombreInicial"):
+                for a in f.nombreInicial:
+                    nuevoNivel = levels[a]    
+                    nuevoNivel.nombreInicial += f.nombreInicial[a]
+            if hasattr(f, "Questions"):
+                for b in f.Questions:
+                    nuevoNivel = levels[b]    
+                    nuevoNivel.preguntas += f.Questions[b]
+
         self.indiceNivelActual = 0
         self.numeroNiveles = len(self.listaNiveles)
         self.numeroSufijos = len(self.listaSufijos)
@@ -392,9 +385,11 @@ class ConozcoUy():
         r_path = os.path.join(CAMINODATOS,ARCHIVOEXPLORACIONES + '.py')
         a_path = os.path.abspath(r_path)
         f = None
-        f = imp.load_source(ARCHIVOEXPLORACIONES, a_path)
-        print "Cannot open %s" % (ARCHIVOEXPLORACIONES,)
-        
+        try:        
+            f = imp.load_source(ARCHIVOEXPLORACIONES, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVOEXPLORACIONES,)
+
         if f:
             if hasattr(f, 'CONFIGURATION'):
                 for module in f.CONFIGURATION:
@@ -402,7 +397,6 @@ class ConozcoUy():
                     self.listaExploraciones.append(nuevoNivel)
                     
                     for line in f.CONFIGURATION[module].split('\n'):            
-                        print line                        
                         [var,valor] = line.strip().split("=")
             
                         if var.startswith("dibujoInicial"):

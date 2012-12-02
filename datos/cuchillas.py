@@ -9,5 +9,5 @@ BLADES = [
 (_("Great Blade"),252,496,601,65),
 (_("Great Blade Peach"),251,387,544,10),
 (_("Lower Great Blade"),250,291,666,10),
-(_("Black blade"),249,417,179,45)]
+(_("Black Blade"),249,417,179,45)]
 # fin
