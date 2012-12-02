@@ -45,7 +45,7 @@ ARCHIVODEPTOS = "departamentos"
 ARCHIVOLUGARES = "ciudades"
 ARCHIVONIVELES = "niveles.txt"
 ARCHIVOEXPLORACIONES = "exploraciones.txt"
-ARCHIVORIOS = "rios.txt"
+ARCHIVORIOS = "rios"
 ARCHIVOCUCHILLAS = "cuchillas"
 ARCHIVOCREDITOS = "creditos.txt"
 ARCHIVOPRESENTACION = "presentacion.txt"
@@ -249,18 +249,21 @@ class ConozcoUy():
         self.riosDetectar = self.cargarImagen("riosDetectar.png")
         self.listaRios = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVORIOS),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreRio,claveColor,posx,posy,rotacion]=linea.strip().split("|")
-            nuevoRio = Zona(self.riosDetectar,unicode(nombreRio,'iso-8859-1'),
-                              claveColor,1,(posx,posy),rotacion)
-            self.listaRios.append(nuevoRio)
-            linea = f.readline()
-        f.close()
+        r_path = os.path.join(CAMINODATOS,ARCHIVORIOS)
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVORIOS, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVORIOS,)
+        if f:
+            if hasattr(f, 'RIOS'):
+                for rio in f.RIOS:
+                    [nombreRio,claveColor,posx,posy,rotacion] = rio
+                    nuevoRio = Zona(self.riosDetectar,
+                                    unicode(nombreRio,'iso-8859-1'),
+                                    claveColor,1,(posx,posy),rotacion)
+                    self.listaRios.append(nuevoRio)
 
     def cargarCuchillas(self):
         """Carga las imagenes y los datos de las cuchillas"""
