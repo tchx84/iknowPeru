@@ -42,7 +42,7 @@ DXNAVE = 100
 DYNAVE = 200
 CAMINODATOS = "datos"
 ARCHIVODEPTOS = "departamentos"
-ARCHIVOLUGARES = "ciudades.txt"
+ARCHIVOLUGARES = "ciudades"
 ARCHIVONIVELES = "niveles.txt"
 ARCHIVOEXPLORACIONES = "exploraciones.txt"
 ARCHIVORIOS = "rios.txt"
@@ -294,28 +294,30 @@ class ConozcoUy():
             os.path.join(CAMINOIMAGENES,"cerro.png"))
         self.listaLugares = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOLUGARES),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreLugar,posx,posy,tipo,incx,incy] = \
-                linea.strip().split("|")
-            if int(tipo) == 1:
-                simbolo = self.simboloCapital
-            elif int(tipo) == 2:
-                simbolo = self.simboloCiudad
-            elif int(tipo) == 5:
-                simbolo = self.simboloCerro
-            else:
-                simbolo = self.simboloCiudad
-            nuevoLugar = Punto(unicode(nombreLugar,'iso-8859-1'),
-                               int(tipo),simbolo,
-                               (posx,posy),(incx,incy))
-            self.listaLugares.append(nuevoLugar)
-            linea = f.readline()
-        f.close()
+        r_path = os.path.join(CAMINODATOS,ARCHIVOLUGARES + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVOLUGARES, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVOLUGARES,)
+        if f:
+            if hasattr(f, 'CITIES'):
+                for city in f.CITIES:
+                    [nombreLugar,posx,posy,tipo,incx,incy] = city
+                    if int(tipo) == 1:
+                        simbolo = self.simboloCapital
+                    elif int(tipo) == 2:
+                        simbolo = self.simboloCiudad
+                    elif int(tipo) == 5:
+                        simbolo = self.simboloCerro
+                    else:
+                        simbolo = self.simboloCiudad
+
+                    nuevoLugar = Punto(unicode(nombreLugar,'iso-8859-1'),
+                                       int(tipo),simbolo,
+                                       (posx,posy),(incx,incy))
+                    self.listaLugares.append(nuevoLugar)
 
     def cargarNiveles(self):
         """Carga los niveles del archivo de configuracion"""
