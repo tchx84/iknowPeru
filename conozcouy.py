@@ -22,6 +22,7 @@
 import sys, pygame, random, os
 import olpcgames
 import gtk
+import imp
 
 from gettext import gettext as _
 
@@ -40,7 +41,7 @@ YNAVE = 650
 DXNAVE = 100
 DYNAVE = 200
 CAMINODATOS = "datos"
-ARCHIVODEPTOS = "departamentos.txt"
+ARCHIVODEPTOS = "departamentos"
 ARCHIVOLUGARES = "ciudades.txt"
 ARCHIVONIVELES = "niveles.txt"
 ARCHIVOEXPLORACIONES = "exploraciones.txt"
@@ -229,19 +230,20 @@ class ConozcoUy():
         self.deptosLineas = self.cargarImagen("deptosLineas.png")
         self.listaDeptos = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVODEPTOS),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreDepto,claveColor,posx,posy,rotacion]=linea.strip().split("|")
-            nuevoDepto = Zona(self.deptos,unicode(nombreDepto,'iso-8859-1'),
+        r_path = os.path.join(CAMINODATOS,ARCHIVODEPTOS + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVODEPTOS, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVODEPTOS,)
+        if f:
+            if hasaatr(f, 'DEPARTMENTS'):
+                for department in f.DEPARTMENTS:
+                    [nombreDepto, claveColor, posx, posy, rotacion] = department
+                    nuevoDepto = Zona(self.deptos,unicode(nombreDepto,'iso-8859-1'),
                               claveColor,1,(posx,posy),rotacion)
-            self.listaDeptos.append(nuevoDepto)
-            linea = f.readline()
-        f.close()
-
+                    self.listaDeptos.append(nuevoDepto)
     def cargarRios(self):
         """Carga las imagenes y los datos de los rios"""
         self.rios = self.cargarImagen("rios.png")
