@@ -47,7 +47,7 @@ ARCHIVONIVELES = "niveles.txt"
 ARCHIVOEXPLORACIONES = "exploraciones.txt"
 ARCHIVORIOS = "rios"
 ARCHIVOCUCHILLAS = "cuchillas"
-ARCHIVOCREDITOS = "creditos.txt"
+ARCHIVOCREDITOS = "creditos"
 ARCHIVOPRESENTACION = "presentacion"
 CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
@@ -436,15 +436,25 @@ class ConozcoUy():
                           (int(600*scale+shift_x),int(100*scale+shift_y)),
                           (255,255,255))
         # falta sanitizar acceso a archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOCREDITOS),"r")
         yLinea = int(200*scale+shift_y)
-        for linea in f:
-            self.mostrarTexto(linea.strip(),
-                              self.fuente32,
-                              (int(600*scale+shift_x),yLinea),
-                              (155,155,255))
-            yLinea = yLinea + int(40*scale)
-        f.close()
+        
+        r_path = os.path.join(CAMINODATOS,ARCHIVOCREDITOS + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVOCREDITOS, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVOCREDITOS,)
+        
+        if f:
+            if hasattr(f, 'CREDITS'):
+                for line in f.CREDITS:
+                    self.mostrarTexto(line.strip(),
+                                      self.fuente32,
+                                      (int(600*scale+shift_x),yLinea),
+                                      (155,155,255))
+                    yLinea = yLinea + int(40*scale)
+        
         self.mostrarTexto(_("Press any key to return"),
                           self.fuente32,
                           (int(600*scale+shift_x),int(800*scale+shift_y)),
