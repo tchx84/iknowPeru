@@ -44,7 +44,7 @@ CAMINODATOS = "datos"
 ARCHIVODEPTOS = "departamentos"
 ARCHIVOLUGARES = "ciudades"
 ARCHIVONIVELES = "niveles.txt"
-ARCHIVOEXPLORACIONES = "exploraciones.txt"
+ARCHIVOEXPLORACIONES = "exploraciones"
 ARCHIVORIOS = "rios"
 ARCHIVOCUCHILLAS = "cuchillas"
 ARCHIVOCREDITOS = "creditos"
@@ -389,37 +389,35 @@ class ConozcoUy():
         """Carga los niveles de exploracion del archivo de configuracion"""
         self.listaExploraciones = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOEXPLORACIONES),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            if linea[0] == "[":
-                # empieza nivel
-                nombreNivel = linea.strip("[]\n")
-                nuevoNivel = Nivel(nombreNivel)
-                self.listaExploraciones.append(nuevoNivel)
-                linea = f.readline()
-                continue
-            if linea.find("=") == -1:
-                linea = f.readline()
-                continue         
-            [var,valor] = linea.strip().split("=")
-            if var.startswith("dibujoInicial"):
-                listaDibujos = valor.split(",")
-                for i in listaDibujos:
-                    nuevoNivel.dibujoInicial.append(i.strip())
-            elif var.startswith("nombreInicial"):
-                listaNombres = valor.split(",")
-                for i in listaNombres:
-                    nuevoNivel.nombreInicial.append(i.strip())
-            elif var.startswith("elementosActivos"):
-                listaNombres = valor.split(",")
-                for i in listaNombres:
-                    nuevoNivel.elementosActivos.append(i.strip())
-            linea = f.readline()
-        f.close()
+        r_path = os.path.join(CAMINODATOS,ARCHIVOEXPLORACIONES + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        f = imp.load_source(ARCHIVOEXPLORACIONES, a_path)
+        print "Cannot open %s" % (ARCHIVOEXPLORACIONES,)
+        
+        if f:
+            if hasattr(f, 'CONFIGURATION'):
+                for module in f.CONFIGURATION:
+                    nuevoNivel = Nivel(module)
+                    self.listaExploraciones.append(nuevoNivel)
+                    
+                    for line in f.CONFIGURATION[module].split('\n'):            
+                        print line                        
+                        [var,valor] = line.strip().split("=")
+            
+                        if var.startswith("dibujoInicial"):
+                            listaDibujos = valor.split(",")
+                            for i in listaDibujos:
+                                nuevoNivel.dibujoInicial.append(i.strip())
+                        elif var.startswith("nombreInicial"):
+                            listaNombres = valor.split(",")
+                            for i in listaNombres:
+                                nuevoNivel.nombreInicial.append(i.strip())
+                        elif var.startswith("elementosActivos"):
+                            listaNombres = valor.split(",")
+                            for i in listaNombres:
+                                nuevoNivel.elementosActivos.append(i.strip())
+        
         self.numeroExploraciones = len(self.listaExploraciones)
 
     def pantallaAcercaDe(self):
