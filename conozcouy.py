@@ -48,7 +48,7 @@ ARCHIVOEXPLORACIONES = "exploraciones.txt"
 ARCHIVORIOS = "rios"
 ARCHIVOCUCHILLAS = "cuchillas"
 ARCHIVOCREDITOS = "creditos.txt"
-ARCHIVOPRESENTACION = "presentacion.txt"
+ARCHIVOPRESENTACION = "presentacion"
 CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
@@ -1129,11 +1129,19 @@ class ConozcoUy():
         """Presenta una animacion inicial"""
         # falta sanitizar manejo de archivo
         self.listaPresentacion = list()
-        f = open(os.path.join(CAMINODATOS,ARCHIVOPRESENTACION),"r")
-        for linea in f:
-            self.listaPresentacion.append(unicode(linea,'iso-8859-1'))
-        f.close()
-        self.pantalla.fill((0,0,0))
+        r_path = os.path.join(CAMINODATOS,ARCHIVOPRESENTACION + '.py')
+        a_path = os.path.abspath(r_path)
+        f = None
+        try:
+            f = imp.load_source(ARCHIVOPRESENTACION, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVOPRESENTACION,)
+
+        if f:
+            if hasattr(f, 'PRESENT_ACTIONS'):
+                for action in f.PRESENT_ACTIONS:
+                    self.listaPresentacion.append(unicode(action,'iso-8859-1'))
+
         # cuadro 1: nave llegando
         self.pantalla.blit(self.tierra,(int(200*scale+shift_x),
                                         int(150*scale+shift_y)))

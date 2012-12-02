@@ -1,0 +1,7 @@
+from gettext import getttext as _
+
+PRESENT_ACTIONS = (
+"¡Qué hermoso planeta!\Voy a explorar aquel territorio\¡Ahí voy!",
+"¡Oh, no!\La nave tiene problemas\¡Me voy a estrellar!",
+"¡Por suerte me salvé!\Ahora tengo que reconstruir\mi nave, pero no conozco\este lugar. ¡Necesito ayuda!")
+
