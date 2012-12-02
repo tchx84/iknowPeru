@@ -1,5 +1,7 @@
 # Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
 # departamentos
+from gettext import gettext as _
+
 DEPARTMENTS = [
 (_("Tumbes"),254,64,204,0),
 (_("Piura"),253,142,236,0),

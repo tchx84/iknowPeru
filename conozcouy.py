@@ -238,7 +238,7 @@ class ConozcoUy():
         except:
             print "Cannot open %s" % (ARCHIVODEPTOS,)
         if f:
-            if hasaatr(f, 'DEPARTMENTS'):
+            if hasattr(f, 'DEPARTMENTS'):
                 for department in f.DEPARTMENTS:
                     [nombreDepto, claveColor, posx, posy, rotacion] = department
                     nuevoDepto = Zona(self.deptos,unicode(nombreDepto,'iso-8859-1'),
