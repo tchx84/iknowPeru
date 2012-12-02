@@ -1,9 +1,0 @@
-# Cuchilla|codigo color (rojo)|ubic. texto x|y|rotacion nombre
-# cuchillas
-Cuchilla de Haedo|254|331|247|75
-Cuchilla de Santa Ana|253|507|238|-45
-Cuchilla Grande|252|496|601|65
-Cuchilla Grande del Durazno|251|387|544|10
-Cuchilla Grande Inferior|250|291|666|10
-Cuchilla Negra|249|417|179|45
-# fin

@@ -46,10 +46,9 @@ ARCHIVOLUGARES = "ciudades"
 ARCHIVONIVELES = "niveles.txt"
 ARCHIVOEXPLORACIONES = "exploraciones.txt"
 ARCHIVORIOS = "rios.txt"
-ARCHIVOCUCHILLAS = "cuchillas.txt"
+ARCHIVOCUCHILLAS = "cuchillas"
 ARCHIVOCREDITOS = "creditos.txt"
 ARCHIVOPRESENTACION = "presentacion.txt"
-CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
 COLORNOMBRECAPITAL = (10,10,10)
@@ -269,20 +268,22 @@ class ConozcoUy():
         self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
         self.listaCuchillas = list()
         # falta sanitizar manejo de archivo
-        f = open(os.path.join(CAMINODATOS,ARCHIVOCUCHILLAS),"r")
-        linea = f.readline()
-        while linea:
-            if linea[0] == "#":
-                linea = f.readline()
-                continue
-            [nombreCuchilla,claveColor,posx,posy,rotacion] = \
-                linea.strip().split("|")
-            nuevaCuchilla = Zona(self.cuchillasDetectar,
-                                 unicode(nombreCuchilla,'iso-8859-1'),
-                                 claveColor,1,(posx,posy),rotacion)
-            self.listaCuchillas.append(nuevaCuchilla)
-            linea = f.readline()
-        f.close()
+        r_path = os.path.join(CAMINODATOS,ARCHIVOCUCHILLAS)
+        a_path = os.path.abspath(r_path)
+        f = None
+
+        try:
+            f = imp.load_source(ARCHIVOCUCHILLAS, a_path)
+        except:
+            print "Cannot open %s" % (ARCHIVOCUCHILLAS,)
+        if f:
+            if hasattr(f, 'BLADES'):
+                for blade in f.BLADES:
+                    [nombreCuchilla,claveColor,posx,posy,rotacion] = blade
+                    nuevaCuchilla = Zona(self.cuchillasDetectar,
+                                         unicode(nombreCuchilla,'iso-8859-1'),
+                                         claveColor,1,(posx,posy),rotacion)
+                    self.listaCuchillas.append(nuevaCuchilla)
 
     def cargarLugares(self):
         """Carga los datos de las ciudades y otros puntos de interes"""
