@@ -49,6 +49,7 @@ ARCHIVORIOS = "rios"
 ARCHIVOCUCHILLAS = "cuchillas"
 ARCHIVOCREDITOS = "creditos.txt"
 ARCHIVOPRESENTACION = "presentacion.txt"
+CAMINOIMAGENES = "imagenes"
 CAMINOSONIDOS = "sonidos"
 COLORNOMBREDEPTO = (200,60,60)
 COLORNOMBRECAPITAL = (10,10,10)
@@ -249,13 +250,14 @@ class ConozcoUy():
         self.riosDetectar = self.cargarImagen("riosDetectar.png")
         self.listaRios = list()
         # falta sanitizar manejo de archivo
-        r_path = os.path.join(CAMINODATOS,ARCHIVORIOS)
+        r_path = os.path.join(CAMINODATOS,ARCHIVORIOS + '.py')
         a_path = os.path.abspath(r_path)
         f = None
         try:
             f = imp.load_source(ARCHIVORIOS, a_path)
         except:
             print "Cannot open %s" % (ARCHIVORIOS,)
+
         if f:
             if hasattr(f, 'RIOS'):
                 for rio in f.RIOS:
@@ -271,10 +273,9 @@ class ConozcoUy():
         self.cuchillasDetectar = self.cargarImagen("cuchillasDetectar.png")
         self.listaCuchillas = list()
         # falta sanitizar manejo de archivo
-        r_path = os.path.join(CAMINODATOS,ARCHIVOCUCHILLAS)
+        r_path = os.path.join(CAMINODATOS,ARCHIVOCUCHILLAS + '.py')
         a_path = os.path.abspath(r_path)
         f = None
-
         try:
             f = imp.load_source(ARCHIVOCUCHILLAS, a_path)
         except:
