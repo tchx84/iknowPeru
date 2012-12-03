@@ -4,7 +4,7 @@
 
 from gettext import gettext as _
 
-CITIES =
+CITIES = [
 (_("Tumbes"), 148, 192, 1, -40, -11)
 (_("Piura"), 139, 267, 1, 11, 16)
 (_("Chiclayo"), 178, 344, 1, -44, 5)
@@ -48,7 +48,7 @@ CITIES =
 (_("Ilo"), 572, 837, 2, -22, 3)
 (_("Lambayeque"), 152, 316, 2, -86,  3)
 (_("Tingo Maria"), 357, 439, 2, 2, -9)
-(_("Tarma"), 374, 551, 2, 36, 2)
+(_("Tarma"), 374, 551, 2, 36, 2)]
 # puntos historico
 # puntos turistico
 # cerro
