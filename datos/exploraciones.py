@@ -12,16 +12,16 @@ from gettext import gettext as _
 
 CONFIGURATION = {
 _("Explore departaments"): """dibujoInicial = lineasDepto
-nombreInicial = 
+nombreInicial =
 elementosActivos = deptos""",
-_("Explore capitals") : """dibujoInicial = lineasDepto, capitales
+_("Explore capitals"): """dibujoInicial = lineasDepto, capitales
 nombreInicial = deptos
 elementosActivos = capitales""",
 _("Explore cities"): """dibujoInicial = lineasDepto, capitales, ciudades
 nombreInicial = deptos
 elementosActivos = capitales, ciudades""",
 _("Explore watershowers"): """dibujoInicial = rios
-nombreInicial = 
+nombreInicial =
 elementosActivos = rios""",
 _("Explore elevations"): """dibujoInicial = cuchillas, cerros
 nombreInicial =
