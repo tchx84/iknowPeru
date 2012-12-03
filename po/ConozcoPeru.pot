@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-03 00:53+0530\n"
+"POT-Creation-Date: 2012-12-03 09:10+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,40 +25,40 @@ msgstr ""
 msgid "Conozco Uruguay"
 msgstr ""
 
-#: conozcouy.py:426
+#: conozcouy.py:427
 msgid "I know about Peru"
 msgstr ""
 
-#: conozcouy.py:450
+#: conozcouy.py:451
 msgid "Press any key to return"
 msgstr ""
 
-#: conozcouy.py:469
+#: conozcouy.py:470
 msgid "I know Peru"
 msgstr ""
 
-#: conozcouy.py:473
+#: conozcouy.py:474
 msgid "Game"
 msgstr ""
 
-#: conozcouy.py:487
+#: conozcouy.py:488
 msgid "Explore"
 msgstr ""
 
-#: conozcouy.py:504
+#: conozcouy.py:505
 msgid "About this game"
 msgstr ""
 
-#: conozcouy.py:511
+#: conozcouy.py:512
 msgid "Leave"
 msgstr ""
 
-#: conozcouy.py:899
+#: conozcouy.py:900
 msgid "End"
 msgstr ""
 
-#: conozcouy.py:1150 conozcouy.py:1198 conozcouy.py:1224 conozcouy.py:1277
-#: conozcouy.py:1300 conozcouy.py:1360
+#: conozcouy.py:1151 conozcouy.py:1199 conozcouy.py:1225 conozcouy.py:1278
+#: conozcouy.py:1301 conozcouy.py:1361
 msgid "Press any key to skip"
 msgstr ""
 
@@ -284,19 +284,19 @@ msgstr ""
 #: datos/niveles.py:105 datos/niveles.py:106 datos/niveles.py:107
 #: datos/niveles.py:108 datos/niveles.py:109 datos/niveles.py:110
 #: datos/niveles.py:111 datos/niveles.py:112 datos/niveles.py:113
-#: datos/niveles.py:114 datos/niveles.py:115 datos/niveles.py:121
+#: datos/niveles.py:114 datos/niveles.py:120 datos/niveles.py:121
 #: datos/niveles.py:122 datos/niveles.py:123 datos/niveles.py:124
 #: datos/niveles.py:125 datos/niveles.py:126 datos/niveles.py:127
 #: datos/niveles.py:128 datos/niveles.py:129 datos/niveles.py:130
 #: datos/niveles.py:131 datos/niveles.py:132 datos/niveles.py:133
 #: datos/niveles.py:134 datos/niveles.py:135 datos/niveles.py:136
 #: datos/niveles.py:137 datos/niveles.py:138 datos/niveles.py:139
-#: datos/niveles.py:140 datos/niveles.py:147 datos/niveles.py:148
+#: datos/niveles.py:146 datos/niveles.py:147 datos/niveles.py:148
 #: datos/niveles.py:149 datos/niveles.py:150 datos/niveles.py:151
 #: datos/niveles.py:152 datos/niveles.py:153 datos/niveles.py:154
 #: datos/niveles.py:155 datos/niveles.py:156 datos/niveles.py:157
 #: datos/niveles.py:158 datos/niveles.py:159 datos/niveles.py:160
-#: datos/niveles.py:161 datos/niveles.py:162 datos/niveles.py:167
+#: datos/niveles.py:161 datos/niveles.py:166
 msgid "Come on, try again"
 msgstr ""
 
@@ -309,11 +309,11 @@ msgstr ""
 msgid "Piura"
 msgstr ""
 
-#: datos/niveles.py:63 datos/niveles.py:138
+#: datos/niveles.py:63 datos/niveles.py:137
 msgid "of Lambayeque"
 msgstr ""
 
-#: datos/niveles.py:63 datos/niveles.py:138 datos/ciudades.py:49
+#: datos/niveles.py:63 datos/niveles.py:137 datos/ciudades.py:49
 #: datos/departamentos.py:8
 msgid "Lambayeque"
 msgstr ""
@@ -409,29 +409,29 @@ msgstr ""
 msgid "Ucayali"
 msgstr ""
 
-#: datos/niveles.py:75 datos/niveles.py:106
+#: datos/niveles.py:75 datos/niveles.py:105
 msgid "of Ica"
 msgstr ""
 
-#: datos/niveles.py:75 datos/niveles.py:106 datos/niveles.py:172
+#: datos/niveles.py:75 datos/niveles.py:105 datos/niveles.py:171
 #: datos/ciudades.py:22 datos/departamentos.py:20
 msgid "Ica"
 msgstr ""
 
-#: datos/niveles.py:76 datos/niveles.py:107
+#: datos/niveles.py:76 datos/niveles.py:106
 msgid "of Huancavelica"
 msgstr ""
 
-#: datos/niveles.py:76 datos/niveles.py:107 datos/ciudades.py:23
+#: datos/niveles.py:76 datos/niveles.py:106 datos/ciudades.py:23
 #: datos/departamentos.py:21
 msgid "Huancavelica"
 msgstr ""
 
-#: datos/niveles.py:77 datos/niveles.py:108
+#: datos/niveles.py:77 datos/niveles.py:107
 msgid "of Ayacucho"
 msgstr ""
 
-#: datos/niveles.py:77 datos/niveles.py:108 datos/ciudades.py:24
+#: datos/niveles.py:77 datos/niveles.py:107 datos/ciudades.py:24
 #: datos/departamentos.py:22
 msgid "Ayacucho"
 msgstr ""
@@ -444,11 +444,11 @@ msgstr ""
 msgid "Apurimac"
 msgstr ""
 
-#: datos/niveles.py:79 datos/niveles.py:110
+#: datos/niveles.py:79 datos/niveles.py:109
 msgid "of Cusco"
 msgstr ""
 
-#: datos/niveles.py:79 datos/niveles.py:110 datos/ciudades.py:26
+#: datos/niveles.py:79 datos/niveles.py:109 datos/ciudades.py:26
 #: datos/departamentos.py:24
 msgid "Cusco"
 msgstr ""
@@ -461,38 +461,38 @@ msgstr ""
 msgid "Mother of God"
 msgstr ""
 
-#: datos/niveles.py:82 datos/niveles.py:112
+#: datos/niveles.py:82 datos/niveles.py:111
 msgid "of Arequipa"
 msgstr ""
 
-#: datos/niveles.py:82 datos/niveles.py:112 datos/ciudades.py:28
+#: datos/niveles.py:82 datos/niveles.py:111 datos/ciudades.py:28
 #: datos/departamentos.py:26
 msgid "Arequipa"
 msgstr ""
 
-#: datos/niveles.py:83 datos/niveles.py:113
+#: datos/niveles.py:83 datos/niveles.py:112
 msgid "of Puno"
 msgstr ""
 
-#: datos/niveles.py:83 datos/niveles.py:113 datos/ciudades.py:29
+#: datos/niveles.py:83 datos/niveles.py:112 datos/ciudades.py:29
 #: datos/departamentos.py:27
 msgid "Puno"
 msgstr ""
 
-#: datos/niveles.py:84 datos/niveles.py:114 datos/niveles.py:123
+#: datos/niveles.py:84 datos/niveles.py:113 datos/niveles.py:122
 msgid "of Moquegua"
 msgstr ""
 
-#: datos/niveles.py:84 datos/niveles.py:114 datos/niveles.py:123
+#: datos/niveles.py:84 datos/niveles.py:113 datos/niveles.py:122
 #: datos/ciudades.py:30 datos/departamentos.py:28
 msgid "Moquegua"
 msgstr ""
 
-#: datos/niveles.py:85 datos/niveles.py:115
+#: datos/niveles.py:85 datos/niveles.py:114
 msgid "of Tacna"
 msgstr ""
 
-#: datos/niveles.py:85 datos/niveles.py:115 datos/ciudades.py:31
+#: datos/niveles.py:85 datos/niveles.py:114 datos/ciudades.py:31
 #: datos/departamentos.py:29
 msgid "Tacna"
 msgstr ""
@@ -505,13 +505,13 @@ msgstr ""
 #: datos/niveles.py:106 datos/niveles.py:107 datos/niveles.py:108
 #: datos/niveles.py:109 datos/niveles.py:110 datos/niveles.py:111
 #: datos/niveles.py:112 datos/niveles.py:113 datos/niveles.py:114
-#: datos/niveles.py:115 datos/niveles.py:121 datos/niveles.py:122
+#: datos/niveles.py:120 datos/niveles.py:121 datos/niveles.py:122
 #: datos/niveles.py:123 datos/niveles.py:124 datos/niveles.py:125
 #: datos/niveles.py:126 datos/niveles.py:127 datos/niveles.py:128
 #: datos/niveles.py:129 datos/niveles.py:130 datos/niveles.py:131
 #: datos/niveles.py:132 datos/niveles.py:133 datos/niveles.py:134
 #: datos/niveles.py:135 datos/niveles.py:136 datos/niveles.py:137
-#: datos/niveles.py:138 datos/niveles.py:139 datos/niveles.py:140
+#: datos/niveles.py:138 datos/niveles.py:139
 msgid "City"
 msgstr ""
 
@@ -555,275 +555,275 @@ msgstr ""
 msgid "Huaraz"
 msgstr ""
 
-#: datos/niveles.py:102 datos/niveles.py:103
+#: datos/niveles.py:102
 msgid "of Hill of Pasco"
 msgstr ""
 
-#: datos/niveles.py:102 datos/niveles.py:103
+#: datos/niveles.py:102
 msgid "Hill of Pasco"
 msgstr ""
 
-#: datos/niveles.py:104
+#: datos/niveles.py:103
 msgid "of Huancayo"
 msgstr ""
 
-#: datos/niveles.py:104 datos/ciudades.py:20
+#: datos/niveles.py:103 datos/ciudades.py:20
 msgid "Huancayo"
 msgstr ""
 
-#: datos/niveles.py:105
+#: datos/niveles.py:104
 msgid "of Pucallpa"
 msgstr ""
 
-#: datos/niveles.py:105 datos/ciudades.py:21
+#: datos/niveles.py:104 datos/ciudades.py:21
 msgid "Pucallpa"
 msgstr ""
 
-#: datos/niveles.py:109
+#: datos/niveles.py:108
 msgid "of Abancay"
 msgstr ""
 
-#: datos/niveles.py:109 datos/ciudades.py:25
+#: datos/niveles.py:108 datos/ciudades.py:25
 msgid "Abancay"
 msgstr ""
 
-#: datos/niveles.py:111
+#: datos/niveles.py:110
 msgid "of Puerto Maldonado"
 msgstr ""
 
-#: datos/niveles.py:111 datos/ciudades.py:27
+#: datos/niveles.py:110 datos/ciudades.py:27
 msgid "Puerto Maldonado"
 msgstr ""
 
-#: datos/niveles.py:121
+#: datos/niveles.py:120
 msgid "of Sullana"
 msgstr ""
 
-#: datos/niveles.py:121 datos/ciudades.py:33
+#: datos/niveles.py:120 datos/ciudades.py:33
 msgid "Sullana"
 msgstr ""
 
-#: datos/niveles.py:122
+#: datos/niveles.py:121
 msgid "of Chulucanas"
 msgstr ""
 
-#: datos/niveles.py:122 datos/ciudades.py:34
+#: datos/niveles.py:121 datos/ciudades.py:34
 msgid "Chulucanas"
 msgstr ""
 
-#: datos/niveles.py:124
+#: datos/niveles.py:123
 msgid "of Paita"
 msgstr ""
 
-#: datos/niveles.py:124 datos/ciudades.py:35
+#: datos/niveles.py:123 datos/ciudades.py:35
 msgid "Paita"
 msgstr ""
 
-#: datos/niveles.py:125
+#: datos/niveles.py:124
 msgid "of Catacaos"
 msgstr ""
 
-#: datos/niveles.py:125 datos/ciudades.py:36
+#: datos/niveles.py:124 datos/ciudades.py:36
 msgid "Catacaos"
 msgstr ""
 
-#: datos/niveles.py:126
+#: datos/niveles.py:125
 msgid "of Talara"
 msgstr ""
 
-#: datos/niveles.py:126 datos/ciudades.py:37
+#: datos/niveles.py:125 datos/ciudades.py:37
 msgid "Talara"
 msgstr ""
 
-#: datos/niveles.py:127
+#: datos/niveles.py:126
 msgid "of Barranca"
 msgstr ""
 
-#: datos/niveles.py:127 datos/ciudades.py:38
+#: datos/niveles.py:126 datos/ciudades.py:38
 msgid "Barranca"
 msgstr ""
 
-#: datos/niveles.py:128
+#: datos/niveles.py:127
 msgid "of Huancho"
 msgstr ""
 
-#: datos/niveles.py:128
+#: datos/niveles.py:127
 msgid "Huancho"
 msgstr ""
 
-#: datos/niveles.py:129
+#: datos/niveles.py:128
 msgid "of Huaral"
 msgstr ""
 
-#: datos/niveles.py:129 datos/ciudades.py:40
+#: datos/niveles.py:128 datos/ciudades.py:40
 msgid "Huaral"
 msgstr ""
 
-#: datos/niveles.py:130
+#: datos/niveles.py:129
 msgid "of Chincha"
 msgstr ""
 
-#: datos/niveles.py:130 datos/ciudades.py:41
+#: datos/niveles.py:129 datos/ciudades.py:41
 msgid "Chincha"
 msgstr ""
 
-#: datos/niveles.py:131
+#: datos/niveles.py:130
 msgid "of Pisco"
 msgstr ""
 
-#: datos/niveles.py:131 datos/niveles.py:172 datos/ciudades.py:42
+#: datos/niveles.py:130 datos/niveles.py:171 datos/ciudades.py:42
 msgid "Pisco"
 msgstr ""
 
-#: datos/niveles.py:132
+#: datos/niveles.py:131
 msgid "of Tarapoto"
 msgstr ""
 
-#: datos/niveles.py:132 datos/ciudades.py:43
+#: datos/niveles.py:131 datos/ciudades.py:43
 msgid "Tarapoto"
 msgstr ""
 
-#: datos/niveles.py:133
+#: datos/niveles.py:132
 msgid "of Juanjui"
 msgstr ""
 
-#: datos/niveles.py:133 datos/ciudades.py:44
+#: datos/niveles.py:132 datos/ciudades.py:44
 msgid "Juanjui"
 msgstr ""
 
-#: datos/niveles.py:134
+#: datos/niveles.py:133
 msgid "of Jaen"
 msgstr ""
 
-#: datos/niveles.py:134 datos/ciudades.py:45
+#: datos/niveles.py:133 datos/ciudades.py:45
 msgid "Jaen"
 msgstr ""
 
-#: datos/niveles.py:135
+#: datos/niveles.py:134
 msgid "of Chimbote"
 msgstr ""
 
-#: datos/niveles.py:135 datos/ciudades.py:46
+#: datos/niveles.py:134 datos/ciudades.py:46
 msgid "Chimbote"
 msgstr ""
 
-#: datos/niveles.py:136
+#: datos/niveles.py:135
 msgid "of Juliaca"
 msgstr ""
 
-#: datos/niveles.py:136 datos/ciudades.py:47
+#: datos/niveles.py:135 datos/ciudades.py:47
 msgid "Juliaca"
 msgstr ""
 
-#: datos/niveles.py:137
+#: datos/niveles.py:136
 msgid "of Ilo"
 msgstr ""
 
-#: datos/niveles.py:137 datos/ciudades.py:48
+#: datos/niveles.py:136 datos/ciudades.py:48
 msgid "Ilo"
 msgstr ""
 
-#: datos/niveles.py:139
+#: datos/niveles.py:138
 msgid "of Tingo Maria"
 msgstr ""
 
-#: datos/niveles.py:139 datos/ciudades.py:50
+#: datos/niveles.py:138 datos/ciudades.py:50
 msgid "Tingo Maria"
 msgstr ""
 
-#: datos/niveles.py:140
+#: datos/niveles.py:139
 msgid "of Tarma"
 msgstr ""
 
-#: datos/niveles.py:140 datos/ciudades.py:51
+#: datos/niveles.py:139 datos/ciudades.py:51
 msgid "Tarma"
 msgstr ""
 
-#: datos/niveles.py:147
+#: datos/niveles.py:146
 msgid "River Piura"
 msgstr ""
 
-#: datos/niveles.py:148
+#: datos/niveles.py:147
 msgid "River Maranon"
 msgstr ""
 
-#: datos/niveles.py:149
+#: datos/niveles.py:148
 msgid "River Amazon"
 msgstr ""
 
-#: datos/niveles.py:150
+#: datos/niveles.py:149
 msgid "River Santa"
 msgstr ""
 
-#: datos/niveles.py:151
+#: datos/niveles.py:150
 msgid "River Huallaga"
 msgstr ""
 
-#: datos/niveles.py:152
+#: datos/niveles.py:151
 msgid "River Ucayali"
 msgstr ""
 
-#: datos/niveles.py:152
+#: datos/niveles.py:151
 msgid "River Ucyali"
 msgstr ""
 
-#: datos/niveles.py:153
+#: datos/niveles.py:152
 msgid "River Purus"
 msgstr ""
 
-#: datos/niveles.py:154
+#: datos/niveles.py:153
 msgid "River of las Piedras"
 msgstr ""
 
-#: datos/niveles.py:155
+#: datos/niveles.py:154
 msgid "River Mother of God"
 msgstr ""
 
-#: datos/niveles.py:156
+#: datos/niveles.py:155
 msgid "River Ica"
 msgstr ""
 
-#: datos/niveles.py:157
+#: datos/niveles.py:156
 msgid "River Ocona"
 msgstr ""
 
-#: datos/niveles.py:158
+#: datos/niveles.py:157
 msgid "River Sihuas"
 msgstr ""
 
-#: datos/niveles.py:159
+#: datos/niveles.py:158
 msgid "River Tambo"
 msgstr ""
 
-#: datos/niveles.py:160
+#: datos/niveles.py:159
 msgid "River Sama"
 msgstr ""
 
-#: datos/niveles.py:161
+#: datos/niveles.py:160
 msgid "Pacific Ocean"
 msgstr ""
 
-#: datos/niveles.py:162
+#: datos/niveles.py:161
 msgid "Lake Titicaca"
 msgstr ""
 
-#: datos/niveles.py:167
+#: datos/niveles.py:166
 msgid "The Cordillera Blanca"
 msgstr ""
 
-#: datos/niveles.py:167
+#: datos/niveles.py:166
 msgid "Cordillera Blanca"
 msgstr ""
 
-#: datos/niveles.py:172
+#: datos/niveles.py:171
 msgid "The city where Jose"
 msgstr ""
 
-#: datos/niveles.py:172
+#: datos/niveles.py:171
 msgid "San Martin landing"
 msgstr ""
 
-#: datos/niveles.py:172
+#: datos/niveles.py:171
 msgid "It is in the department"
 msgstr ""
 

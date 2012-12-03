@@ -100,7 +100,6 @@ Questions['Capitals'] = [
 [_("City") + '\\' + _("of Lima"),2,_("Lima"),_("Come on, try again")],
 [_("City") + '\\' + _("of Tumbes"),2,_("Tumbes"),_("Come on, try again")],
 [_("City") + '\\' + _("of Hill of Pasco"),2,_("Hill of Pasco"),_("Come on, try again")],
-[_("City") + '\\' + _("of Hill of Pasco"),2,_("Hill of Pasco"),_("Come on, try again")],
 [_("City") + '\\' + _("of Huancayo"),2,_("Huancayo"),_("Come on, try again")],
 [_("City") + '\\' + _("of Pucallpa"),2,_("Pucallpa"),_("Come on, try again")],
 [_("City") + '\\' + _("of Ica"),2,_("Ica"),_("Come on, try again")],
