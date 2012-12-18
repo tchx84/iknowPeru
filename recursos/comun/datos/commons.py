@@ -54,14 +54,15 @@ BYE = [
 
 CREDITS = [
     _("Author: Ivan Estremadoyro (ivanchhh@gmail.com)"),
-    _('Thanks to: Aneesh Dogra'),
-    _("Por favor enviar comentarios y sugerencias"),
+    _('Author: Aneesh Dogra (lionaneesh@gmail.com)'),
+    _("Author: Alan Aguiar (alanjas@hotmail.com)"),
+    _("Send corrections, comments or suggestions"),
     "",
-    _("Este programa es software libre y desarrollado por la comunidad"),
-    _("Por más información visitá http://ceibaljam.org"),
+    _("This program is free software developed by the community"),
+    _("For more information visit http://ceibaljam.org"),
     "",
-    _("Based on Conozco Uruguay of Gabriel Eirea"),
-    _("Sonidos bajados de freesound.org: btn045.wav por junggle y boom1.wav por de NoiseCollector"),
-    _("Fuentes bajadas de urbanfonts.com: AllCaps.ttf por BobFrantic y Share-Regular.ttf por anónimo")
+    _("This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"),
+    _("Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."),
+    _("Font: Share-Regular.ttf of urbanfonts.com")
 ]
 
