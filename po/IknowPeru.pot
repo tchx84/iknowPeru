@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-18 05:39-0200\n"
+"POT-Creation-Date: 2012-12-18 05:43-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -980,33 +980,33 @@ msgid "Author: Ivan Estremadoyro (ivanchhh@gmail.com)"
 msgstr ""
 
 #: recursos/comun/datos/commons.py:57
-msgid "Thanks to: Aneesh Dogra"
+msgid "Author: Aneesh Dogra (lionaneesh@gmail.com)"
 msgstr ""
 
 #: recursos/comun/datos/commons.py:58
-msgid "Por favor enviar comentarios y sugerencias"
+msgid "Author: Alan Aguiar (alanjas@hotmail.com)"
 msgstr ""
 
-#: recursos/comun/datos/commons.py:60
-msgid "Este programa es software libre y desarrollado por la comunidad"
+#: recursos/comun/datos/commons.py:59
+msgid "Send corrections, comments or suggestions"
 msgstr ""
 
 #: recursos/comun/datos/commons.py:61
-msgid "Por más información visitá http://ceibaljam.org"
+msgid "This program is free software developed by the community"
 msgstr ""
 
-#: recursos/comun/datos/commons.py:63
-msgid "Based on Conozco Uruguay of Gabriel Eirea"
+#: recursos/comun/datos/commons.py:62
+msgid "For more information visit http://ceibaljam.org"
 msgstr ""
 
 #: recursos/comun/datos/commons.py:64
-msgid ""
-"Sonidos bajados de freesound.org: btn045.wav por junggle y boom1.wav por de "
-"NoiseCollector"
+msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
 msgstr ""
 
 #: recursos/comun/datos/commons.py:65
-msgid ""
-"Fuentes bajadas de urbanfonts.com: AllCaps.ttf por BobFrantic y Share-"
-"Regular.ttf por anónimo"
+msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
+msgstr ""
+
+#: recursos/comun/datos/commons.py:66
+msgid "Font: Share-Regular.ttf of urbanfonts.com"
 msgstr ""
