@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-18 05:43-0200\n"
+"POT-Creation-Date: 2013-03-05 01:03-0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "I know Peru"
 msgstr ""
 
 #: conozcouy.py:239 conozcouy.py:356 conozcouy.py:379 conozcouy.py:431
-#: conozcouy.py:514
+#: conozcouy.py:517
 #, python-format
 msgid "Cannot open %s"
 msgstr ""
@@ -97,63 +97,68 @@ msgstr ""
 
 #: conozcouy.py:494
 #, python-format
+msgid "the %(river)s"
+msgstr ""
+
+#: conozcouy.py:497
+#, python-format
 msgid "the %(route)s"
 msgstr ""
 
-#: conozcouy.py:549
+#: conozcouy.py:552
 #, python-format
 msgid "About %s"
 msgstr ""
 
-#: conozcouy.py:563
+#: conozcouy.py:566
 msgid "Press any key to return"
 msgstr ""
 
-#: conozcouy.py:594
+#: conozcouy.py:597
 msgid "You have chosen the map "
 msgstr ""
 
-#: conozcouy.py:600
+#: conozcouy.py:603
 msgid "Play"
 msgstr ""
 
-#: conozcouy.py:616
+#: conozcouy.py:619
 msgid "Explore"
 msgstr ""
 
-#: conozcouy.py:636 conozcouy.py:780
+#: conozcouy.py:639 conozcouy.py:783
 msgid "About this game"
 msgstr ""
 
-#: conozcouy.py:644
+#: conozcouy.py:647
 msgid "Return"
 msgstr ""
 
-#: conozcouy.py:701
+#: conozcouy.py:704
 msgid "Choose the map to use"
 msgstr ""
 
-#: conozcouy.py:721
+#: conozcouy.py:724
 msgid "Previous page"
 msgstr ""
 
-#: conozcouy.py:766
+#: conozcouy.py:769
 msgid "Next page"
 msgstr ""
 
-#: conozcouy.py:787
+#: conozcouy.py:790
 msgid "Exit"
 msgstr ""
 
-#: conozcouy.py:1269
+#: conozcouy.py:1272
 msgid "End"
 msgstr ""
 
-#: conozcouy.py:1280
+#: conozcouy.py:1283
 msgid "Show all"
 msgstr ""
 
-#: conozcouy.py:1609 conozcouy.py:1865
+#: conozcouy.py:1612 conozcouy.py:1868
 msgid "Press any key to skip"
 msgstr ""
 
