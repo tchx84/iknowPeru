@@ -1,0 +1,1062 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-05 01:03-0200\n"
+"PO-Revision-Date: 2013-05-27 03:49+0200\n"
+"Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#: activity/activity.info:2 recursos/comun/datos/commons.py:5
+msgid "I know Peru"
+msgstr "Conozco Perú"
+
+#: conozcouy.py:239 conozcouy.py:356 conozcouy.py:379 conozcouy.py:431
+#: conozcouy.py:517
+#, python-format
+msgid "Cannot open %s"
+msgstr "No se puede abrir %s"
+
+#: conozcouy.py:464
+#, python-format
+msgid ""
+"the city of\n"
+"%s"
+msgstr ""
+"la ciudad de\n"
+"%s"
+
+#: conozcouy.py:467
+#, python-format
+msgid ""
+"the department of\n"
+"%s"
+msgstr ""
+"el departamento de\n"
+"%s"
+
+#: conozcouy.py:470
+#, python-format
+msgid ""
+"the province of\n"
+"%s"
+msgstr ""
+"la provincia de\n"
+"%s"
+
+#: conozcouy.py:473
+#, python-format
+msgid ""
+"the district of\n"
+"%s"
+msgstr ""
+"el distrito de\n"
+"%s"
+
+#: conozcouy.py:476
+#, python-format
+msgid ""
+"the state of\n"
+"%s"
+msgstr ""
+"el estado de\n"
+"%s"
+
+#: conozcouy.py:479
+#, python-format
+msgid ""
+"the region of\n"
+"%s"
+msgstr ""
+"la región de\n"
+"%s"
+
+#: conozcouy.py:482
+#, python-format
+msgid ""
+"the parish of\n"
+"%s"
+msgstr ""
+"la parroquia de\n"
+"%s"
+
+#: conozcouy.py:485
+#, python-format
+msgid ""
+"the taluka of\n"
+"%s"
+msgstr ""
+"la taluka de\n"
+"%s"
+
+#: conozcouy.py:488
+#, python-format
+msgid ""
+"the municipality of\n"
+"%s"
+msgstr ""
+"la municipalidad de\n"
+"%s"
+
+#: conozcouy.py:491
+#, python-format
+msgid "the %s"
+msgstr "el %s"
+
+#: conozcouy.py:494
+#, python-format
+msgid "the %(river)s"
+msgstr "el %(river)s"
+
+#: conozcouy.py:497
+#, python-format
+msgid "the %(route)s"
+msgstr "la %(route)s"
+
+#: conozcouy.py:552
+#, python-format
+msgid "About %s"
+msgstr "Acerca de %s"
+
+#: conozcouy.py:566
+msgid "Press any key to return"
+msgstr "Presiona cualquier tecla para regresar"
+
+#: conozcouy.py:597
+msgid "You have chosen the map "
+msgstr "Has elegido el mapa de "
+
+#: conozcouy.py:603
+msgid "Play"
+msgstr "Jugar"
+
+#: conozcouy.py:619
+msgid "Explore"
+msgstr "Explorar"
+
+#: conozcouy.py:639 conozcouy.py:783
+msgid "About this game"
+msgstr "Acerca de este juego"
+
+#: conozcouy.py:647
+msgid "Return"
+msgstr "Regresar"
+
+#: conozcouy.py:704
+msgid "Choose the map to use"
+msgstr "Elige el mapa a utilizar"
+
+#: conozcouy.py:724
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: conozcouy.py:769
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: conozcouy.py:790
+msgid "Exit"
+msgstr "Salir"
+
+#: conozcouy.py:1272
+msgid "End"
+msgstr "Terminar"
+
+#: conozcouy.py:1283
+msgid "Show all"
+msgstr "Mostrar todo"
+
+#: conozcouy.py:1612 conozcouy.py:1868
+msgid "Press any key to skip"
+msgstr "Presiona cualquier tecla para saltear"
+
+#: recursos/0peru/datos/levels.py:7 recursos/0peru/datos/explorations.py:6
+msgid "Departments"
+msgstr "Departamentos"
+
+#: recursos/0peru/datos/levels.py:11 recursos/0peru/datos/levels.py:68
+#: recursos/0peru/datos/levels.py:102 recursos/0peru/datos/0peru.py:8
+#: recursos/0peru/datos/0peru.py:63
+msgid "Tumbes"
+msgstr "Tumbes"
+
+#: recursos/0peru/datos/levels.py:11 recursos/0peru/datos/levels.py:13
+#: recursos/0peru/datos/levels.py:14 recursos/0peru/datos/levels.py:15
+#: recursos/0peru/datos/levels.py:16 recursos/0peru/datos/levels.py:18
+#: recursos/0peru/datos/levels.py:48 recursos/0peru/datos/levels.py:51
+#: recursos/0peru/datos/levels.py:52 recursos/0peru/datos/levels.py:62
+#: recursos/0peru/datos/levels.py:67 recursos/0peru/datos/levels.py:68
+#: recursos/0peru/datos/levels.py:82 recursos/0peru/datos/levels.py:85
+#: recursos/0peru/datos/levels.py:86 recursos/0peru/datos/levels.py:96
+#: recursos/0peru/datos/levels.py:101 recursos/0peru/datos/levels.py:102
+#: recursos/0peru/datos/levels.py:104 recursos/0peru/datos/levels.py:130
+#: recursos/0peru/datos/levels.py:132 recursos/0peru/datos/levels.py:133
+#: recursos/0peru/datos/levels.py:160 recursos/0peru/datos/levels.py:161
+#: recursos/0peru/datos/levels.py:168 recursos/0peru/datos/levels.py:169
+msgid "Is northwest"
+msgstr "Está al noroeste"
+
+#: recursos/0peru/datos/levels.py:12 recursos/0peru/datos/0peru.py:9
+msgid "Loreto"
+msgstr "Loreto"
+
+#: recursos/0peru/datos/levels.py:12 recursos/0peru/datos/levels.py:17
+#: recursos/0peru/datos/levels.py:61 recursos/0peru/datos/levels.py:63
+#: recursos/0peru/datos/levels.py:95 recursos/0peru/datos/levels.py:97
+#: recursos/0peru/datos/levels.py:112 recursos/0peru/datos/levels.py:134
+#: recursos/0peru/datos/levels.py:145 recursos/0peru/datos/levels.py:146
+#: recursos/0peru/datos/levels.py:147 recursos/0peru/datos/levels.py:148
+#: recursos/0peru/datos/levels.py:149
+msgid "Is north"
+msgstr "Está al norte"
+
+#: recursos/0peru/datos/levels.py:13 recursos/0peru/datos/levels.py:62
+#: recursos/0peru/datos/levels.py:96 recursos/0peru/datos/0peru.py:10
+#: recursos/0peru/datos/0peru.py:57
+msgid "Piura"
+msgstr "Piura"
+
+#: recursos/0peru/datos/levels.py:14 recursos/0peru/datos/0peru.py:11
+msgid "Amazonas"
+msgstr "Amazonas"
+
+#: recursos/0peru/datos/levels.py:15 recursos/0peru/datos/levels.py:48
+#: recursos/0peru/datos/levels.py:82 recursos/0peru/datos/0peru.py:12
+#: recursos/0peru/datos/0peru.py:43
+msgid "Cajamarca"
+msgstr "Cajamarca"
+
+#: recursos/0peru/datos/levels.py:16 recursos/0peru/datos/0peru.py:13
+msgid "Lambayeque"
+msgstr "Lambayeque"
+
+#: recursos/0peru/datos/levels.py:17 recursos/0peru/datos/0peru.py:14
+msgid "San Martín"
+msgstr "San Martín"
+
+#: recursos/0peru/datos/levels.py:18 recursos/0peru/datos/0peru.py:15
+msgid "La Libertad"
+msgstr "La Libertad"
+
+#: recursos/0peru/datos/levels.py:19 recursos/0peru/datos/0peru.py:16
+msgid "Ancash"
+msgstr "Ancash"
+
+#: recursos/0peru/datos/levels.py:19 recursos/0peru/datos/levels.py:57
+#: recursos/0peru/datos/levels.py:91 recursos/0peru/datos/levels.py:105
+#: recursos/0peru/datos/levels.py:109 recursos/0peru/datos/levels.py:110
+#: recursos/0peru/datos/levels.py:116 recursos/0peru/datos/levels.py:117
+#: recursos/0peru/datos/levels.py:170
+msgid "Is west"
+msgstr "Está el oeste"
+
+#: recursos/0peru/datos/levels.py:20 recursos/0peru/datos/0peru.py:17
+msgid "Huanuco"
+msgstr "Huanuco"
+
+#: recursos/0peru/datos/levels.py:20 recursos/0peru/datos/levels.py:22
+#: recursos/0peru/datos/levels.py:50 recursos/0peru/datos/levels.py:54
+#: recursos/0peru/datos/levels.py:84 recursos/0peru/datos/levels.py:88
+#: recursos/0peru/datos/levels.py:120 recursos/0peru/datos/levels.py:128
+#: recursos/0peru/datos/levels.py:135 recursos/0peru/datos/levels.py:162
+#: recursos/0peru/datos/levels.py:163
+msgid "Is in the center"
+msgstr "Está en el centro"
+
+#: recursos/0peru/datos/levels.py:21 recursos/0peru/datos/levels.py:44
+#: recursos/0peru/datos/levels.py:78 recursos/0peru/datos/0peru.py:18
+#: recursos/0peru/datos/0peru.py:39 recursos/0peru/datos/0peru.py:134
+msgid "Lima"
+msgstr "Lima"
+
+#: recursos/0peru/datos/levels.py:21 recursos/0peru/datos/levels.py:44
+#: recursos/0peru/datos/levels.py:49 recursos/0peru/datos/levels.py:78
+#: recursos/0peru/datos/levels.py:83 recursos/0peru/datos/levels.py:131
+msgid "Is southwest"
+msgstr "Está al suroeste"
+
+#: recursos/0peru/datos/levels.py:22 recursos/0peru/datos/levels.py:50
+#: recursos/0peru/datos/levels.py:84 recursos/0peru/datos/0peru.py:19
+#: recursos/0peru/datos/0peru.py:45
+msgid "Cerro de Pasco"
+msgstr "Cerro de Pasco"
+
+#: recursos/0peru/datos/levels.py:23 recursos/0peru/datos/0peru.py:20
+msgid "Junín"
+msgstr "Junín"
+
+#: recursos/0peru/datos/levels.py:23 recursos/0peru/datos/levels.py:27
+#: recursos/0peru/datos/levels.py:28 recursos/0peru/datos/levels.py:29
+#: recursos/0peru/datos/levels.py:47 recursos/0peru/datos/levels.py:55
+#: recursos/0peru/datos/levels.py:56 recursos/0peru/datos/levels.py:58
+#: recursos/0peru/datos/levels.py:81 recursos/0peru/datos/levels.py:89
+#: recursos/0peru/datos/levels.py:90 recursos/0peru/datos/levels.py:92
+#: recursos/0peru/datos/levels.py:107 recursos/0peru/datos/levels.py:108
+#: recursos/0peru/datos/levels.py:111 recursos/0peru/datos/levels.py:113
+#: recursos/0peru/datos/levels.py:114 recursos/0peru/datos/levels.py:125
+#: recursos/0peru/datos/levels.py:126 recursos/0peru/datos/levels.py:127
+msgid "Is south"
+msgstr "Está al sur"
+
+#: recursos/0peru/datos/levels.py:24 recursos/0peru/datos/0peru.py:21
+msgid "Ucayali"
+msgstr "Ucayali"
+
+#: recursos/0peru/datos/levels.py:24 recursos/0peru/datos/levels.py:118
+#: recursos/0peru/datos/levels.py:122 recursos/0peru/datos/levels.py:152
+#: recursos/0peru/datos/levels.py:153 recursos/0peru/datos/levels.py:154
+#: recursos/0peru/datos/levels.py:155
+msgid "Is east"
+msgstr "Está al este"
+
+#: recursos/0peru/datos/levels.py:25 recursos/0peru/datos/0peru.py:22
+msgid "Madre de Dios"
+msgstr "Madre de Dios"
+
+#: recursos/0peru/datos/levels.py:25 recursos/0peru/datos/levels.py:26
+#: recursos/0peru/datos/levels.py:30 recursos/0peru/datos/levels.py:31
+#: recursos/0peru/datos/levels.py:32 recursos/0peru/datos/levels.py:33
+#: recursos/0peru/datos/levels.py:34 recursos/0peru/datos/levels.py:45
+#: recursos/0peru/datos/levels.py:46 recursos/0peru/datos/levels.py:53
+#: recursos/0peru/datos/levels.py:60 recursos/0peru/datos/levels.py:64
+#: recursos/0peru/datos/levels.py:65 recursos/0peru/datos/levels.py:66
+#: recursos/0peru/datos/levels.py:79 recursos/0peru/datos/levels.py:80
+#: recursos/0peru/datos/levels.py:87 recursos/0peru/datos/levels.py:94
+#: recursos/0peru/datos/levels.py:98 recursos/0peru/datos/levels.py:99
+#: recursos/0peru/datos/levels.py:100 recursos/0peru/datos/levels.py:103
+#: recursos/0peru/datos/levels.py:119 recursos/0peru/datos/levels.py:121
+#: recursos/0peru/datos/levels.py:123 recursos/0peru/datos/levels.py:158
+#: recursos/0peru/datos/levels.py:164 recursos/0peru/datos/levels.py:165
+#: recursos/0peru/datos/levels.py:166 recursos/0peru/datos/levels.py:167
+msgid "Is southeast"
+msgstr "Está al sureste"
+
+#: recursos/0peru/datos/levels.py:26 recursos/0peru/datos/0peru.py:23
+msgid "Cuzco"
+msgstr "Cuzco"
+
+#: recursos/0peru/datos/levels.py:27 recursos/0peru/datos/levels.py:58
+#: recursos/0peru/datos/levels.py:92 recursos/0peru/datos/0peru.py:24
+#: recursos/0peru/datos/0peru.py:53
+msgid "Ica"
+msgstr "Ica"
+
+#: recursos/0peru/datos/levels.py:28 recursos/0peru/datos/levels.py:55
+#: recursos/0peru/datos/levels.py:89 recursos/0peru/datos/0peru.py:25
+#: recursos/0peru/datos/0peru.py:50
+msgid "Huancavelica"
+msgstr "Huancavelica"
+
+#: recursos/0peru/datos/levels.py:29 recursos/0peru/datos/levels.py:47
+#: recursos/0peru/datos/levels.py:81 recursos/0peru/datos/0peru.py:26
+#: recursos/0peru/datos/0peru.py:42
+msgid "Ayacucho"
+msgstr "Ayacucho"
+
+#: recursos/0peru/datos/levels.py:30 recursos/0peru/datos/levels.py:46
+#: recursos/0peru/datos/levels.py:80 recursos/0peru/datos/0peru.py:27
+#: recursos/0peru/datos/0peru.py:41
+msgid "Arequipa"
+msgstr "Arequipa"
+
+#: recursos/0peru/datos/levels.py:31 recursos/0peru/datos/0peru.py:28
+msgid "Apurimac"
+msgstr "Apurimac"
+
+#: recursos/0peru/datos/levels.py:32 recursos/0peru/datos/levels.py:65
+#: recursos/0peru/datos/levels.py:99 recursos/0peru/datos/0peru.py:29
+#: recursos/0peru/datos/0peru.py:60
+msgid "Puno"
+msgstr "Puno"
+
+#: recursos/0peru/datos/levels.py:33 recursos/0peru/datos/levels.py:60
+#: recursos/0peru/datos/levels.py:94 recursos/0peru/datos/0peru.py:30
+#: recursos/0peru/datos/0peru.py:55
+msgid "Moquegua"
+msgstr "Moquegua"
+
+#: recursos/0peru/datos/levels.py:34 recursos/0peru/datos/levels.py:66
+#: recursos/0peru/datos/levels.py:100 recursos/0peru/datos/0peru.py:31
+#: recursos/0peru/datos/0peru.py:61
+msgid "Tacna"
+msgstr "Tacna"
+
+#: recursos/0peru/datos/levels.py:40 recursos/0peru/datos/explorations.py:13
+msgid "Departmental capitals"
+msgstr "Capitales departamentales"
+
+#: recursos/0peru/datos/levels.py:45 recursos/0peru/datos/levels.py:79
+#: recursos/0peru/datos/0peru.py:40
+msgid "Abancay"
+msgstr "Abancay"
+
+#: recursos/0peru/datos/levels.py:49 recursos/0peru/datos/levels.py:83
+#: recursos/0peru/datos/0peru.py:44
+msgid "Callao"
+msgstr "Callao"
+
+#: recursos/0peru/datos/levels.py:51 recursos/0peru/datos/levels.py:85
+#: recursos/0peru/datos/0peru.py:46
+msgid "Chachapoyas"
+msgstr "Chachapoyas"
+
+#: recursos/0peru/datos/levels.py:52 recursos/0peru/datos/levels.py:86
+#: recursos/0peru/datos/0peru.py:47
+msgid "Chiclayo"
+msgstr "Chiclayo"
+
+#: recursos/0peru/datos/levels.py:53 recursos/0peru/datos/levels.py:87
+#: recursos/0peru/datos/0peru.py:48
+msgid "Cusco"
+msgstr "Cusco"
+
+#: recursos/0peru/datos/levels.py:54 recursos/0peru/datos/levels.py:88
+#: recursos/0peru/datos/0peru.py:49
+msgid "Huánuco"
+msgstr "Huánuco"
+
+#: recursos/0peru/datos/levels.py:56 recursos/0peru/datos/levels.py:90
+#: recursos/0peru/datos/0peru.py:51
+msgid "Huancayo"
+msgstr "Huancayo"
+
+#: recursos/0peru/datos/levels.py:57 recursos/0peru/datos/levels.py:91
+#: recursos/0peru/datos/0peru.py:52
+msgid "Huaraz"
+msgstr "Huaraz"
+
+#: recursos/0peru/datos/levels.py:59 recursos/0peru/datos/levels.py:93
+#: recursos/0peru/datos/0peru.py:54
+msgid "Iquitos"
+msgstr "Iquitos"
+
+#: recursos/0peru/datos/levels.py:59 recursos/0peru/datos/levels.py:93
+#: recursos/0peru/datos/levels.py:106 recursos/0peru/datos/levels.py:115
+#: recursos/0peru/datos/levels.py:124 recursos/0peru/datos/levels.py:129
+#: recursos/0peru/datos/levels.py:150 recursos/0peru/datos/levels.py:151
+#: recursos/0peru/datos/levels.py:156 recursos/0peru/datos/levels.py:157
+#: recursos/0peru/datos/levels.py:159
+msgid "Is northeast"
+msgstr "Está al noroeste"
+
+#: recursos/0peru/datos/levels.py:61 recursos/0peru/datos/levels.py:95
+#: recursos/0peru/datos/0peru.py:56
+msgid "Moyobamba"
+msgstr "Moyobamba"
+
+#: recursos/0peru/datos/levels.py:63 recursos/0peru/datos/levels.py:97
+#: recursos/0peru/datos/0peru.py:58
+msgid "Pucallpa"
+msgstr "Pucallpa"
+
+#: recursos/0peru/datos/levels.py:64 recursos/0peru/datos/levels.py:98
+#: recursos/0peru/datos/0peru.py:59
+msgid "Puerto Maldonado"
+msgstr "Puerto Maldonado"
+
+#: recursos/0peru/datos/levels.py:67 recursos/0peru/datos/levels.py:101
+#: recursos/0peru/datos/0peru.py:62
+msgid "Trujillo"
+msgstr "Trujillo"
+
+#: recursos/0peru/datos/levels.py:74 recursos/0peru/datos/explorations.py:20
+msgid "Cities"
+msgstr "Ciudades"
+
+#: recursos/0peru/datos/levels.py:103 recursos/0peru/datos/0peru.py:67
+msgid "Azángaro"
+msgstr "Azángaro"
+
+#: recursos/0peru/datos/levels.py:104 recursos/0peru/datos/0peru.py:68
+msgid "Bagua"
+msgstr "Bagua"
+
+#: recursos/0peru/datos/levels.py:105 recursos/0peru/datos/0peru.py:69
+msgid "Barranca"
+msgstr "Barranca"
+
+#: recursos/0peru/datos/levels.py:106 recursos/0peru/datos/0peru.py:70
+msgid "Caballococha"
+msgstr "Caballococha"
+
+#: recursos/0peru/datos/levels.py:107 recursos/0peru/datos/0peru.py:71
+msgid "Camana"
+msgstr "Camana"
+
+#: recursos/0peru/datos/levels.py:108 recursos/0peru/datos/0peru.py:72
+msgid "Caraveli"
+msgstr "Caraveli"
+
+#: recursos/0peru/datos/levels.py:109 recursos/0peru/datos/0peru.py:73
+msgid "Casma"
+msgstr "Casma"
+
+#: recursos/0peru/datos/levels.py:110 recursos/0peru/datos/0peru.py:74
+msgid "Chimbote"
+msgstr "Chimbote"
+
+#: recursos/0peru/datos/levels.py:111 recursos/0peru/datos/0peru.py:75
+msgid "Chincha Alta"
+msgstr "Chincha Alta"
+
+#: recursos/0peru/datos/levels.py:112 recursos/0peru/datos/0peru.py:76
+msgid "Contamana"
+msgstr "Contamana"
+
+#: recursos/0peru/datos/levels.py:113 recursos/0peru/datos/0peru.py:77
+msgid "Coracora"
+msgstr "Coracora"
+
+#: recursos/0peru/datos/levels.py:114 recursos/0peru/datos/0peru.py:78
+msgid "Cotahuasi"
+msgstr "Cotahuasi"
+
+#: recursos/0peru/datos/levels.py:115 recursos/0peru/datos/0peru.py:79
+msgid "Flor de Agosto"
+msgstr "Flor de Agosto"
+
+#: recursos/0peru/datos/levels.py:116 recursos/0peru/datos/0peru.py:80
+msgid "Huacho"
+msgstr "Huacho"
+
+#: recursos/0peru/datos/levels.py:117 recursos/0peru/datos/0peru.py:81
+msgid "Huarmey"
+msgstr "Huarmey"
+
+#: recursos/0peru/datos/levels.py:118 recursos/0peru/datos/0peru.py:82
+msgid "Iñapari"
+msgstr "Iñapari"
+
+#: recursos/0peru/datos/levels.py:119 recursos/0peru/datos/0peru.py:83
+msgid "Juliaca"
+msgstr "Juliaca"
+
+#: recursos/0peru/datos/levels.py:120 recursos/0peru/datos/0peru.py:84
+msgid "La Oroya"
+msgstr "La Oroya"
+
+#: recursos/0peru/datos/levels.py:121 recursos/0peru/datos/0peru.py:85
+msgid "Macusani"
+msgstr "Macusani"
+
+#: recursos/0peru/datos/levels.py:122 recursos/0peru/datos/0peru.py:86
+msgid "Manú"
+msgstr "Manú"
+
+#: recursos/0peru/datos/levels.py:123 recursos/0peru/datos/0peru.py:87
+msgid "Mollendo"
+msgstr "Mollendo"
+
+#: recursos/0peru/datos/levels.py:124 recursos/0peru/datos/0peru.py:88
+msgid "Nauta"
+msgstr "Nauta"
+
+#: recursos/0peru/datos/levels.py:125 recursos/0peru/datos/0peru.py:89
+msgid "Nazca"
+msgstr "Nazca"
+
+#: recursos/0peru/datos/levels.py:126 recursos/0peru/datos/0peru.py:90
+msgid "Palpa"
+msgstr "Palpa"
+
+#: recursos/0peru/datos/levels.py:127 recursos/0peru/datos/0peru.py:91
+msgid "Pisco"
+msgstr "Pisco"
+
+#: recursos/0peru/datos/levels.py:128 recursos/0peru/datos/0peru.py:92
+msgid "Puerto Inca"
+msgstr "Puerto Inca"
+
+#: recursos/0peru/datos/levels.py:129 recursos/0peru/datos/0peru.py:93
+msgid "Requena"
+msgstr "Requena"
+
+#: recursos/0peru/datos/levels.py:130 recursos/0peru/datos/0peru.py:94
+msgid "San Pedro de Lloc"
+msgstr "San Pedro de Lloc"
+
+#: recursos/0peru/datos/levels.py:131 recursos/0peru/datos/0peru.py:95
+msgid "San Vicente de Cañete"
+msgstr "San Vicente de Cañete"
+
+#: recursos/0peru/datos/levels.py:132 recursos/0peru/datos/0peru.py:96
+msgid "Sullana"
+msgstr "Sullana"
+
+#: recursos/0peru/datos/levels.py:133 recursos/0peru/datos/0peru.py:97
+msgid "Talara"
+msgstr "Talara"
+
+#: recursos/0peru/datos/levels.py:134 recursos/0peru/datos/0peru.py:98
+msgid "Tarapoto"
+msgstr "Tarapoto"
+
+#: recursos/0peru/datos/levels.py:135 recursos/0peru/datos/0peru.py:99
+msgid "Tingo Maria"
+msgstr "Tingo Maria"
+
+#: recursos/0peru/datos/levels.py:141 recursos/0peru/datos/explorations.py:27
+msgid "Waterways"
+msgstr "Cursos de agua"
+
+#: recursos/0peru/datos/levels.py:145 recursos/0peru/datos/0peru.py:103
+msgid "Napo River"
+msgstr "Río Napo"
+
+#: recursos/0peru/datos/levels.py:146 recursos/0peru/datos/0peru.py:104
+msgid "Curaray River"
+msgstr "Río Curaray"
+
+#: recursos/0peru/datos/levels.py:147 recursos/0peru/datos/0peru.py:105
+msgid "Tigre River"
+msgstr "Río Tigre"
+
+#: recursos/0peru/datos/levels.py:148 recursos/0peru/datos/0peru.py:106
+msgid "Corrientes River"
+msgstr "Río Corrientes"
+
+#: recursos/0peru/datos/levels.py:149 recursos/0peru/datos/0peru.py:107
+msgid "Pastaza River"
+msgstr "Río Pastaza"
+
+#: recursos/0peru/datos/levels.py:150 recursos/0peru/datos/0peru.py:108
+msgid "Amazonas River"
+msgstr "Río Amazonas"
+
+#: recursos/0peru/datos/levels.py:151 recursos/0peru/datos/0peru.py:109
+msgid "Javari River"
+msgstr "Río Javari"
+
+#: recursos/0peru/datos/levels.py:152 recursos/0peru/datos/0peru.py:110
+msgid "Juruá River"
+msgstr "Río Juruá"
+
+#: recursos/0peru/datos/levels.py:153 recursos/0peru/datos/0peru.py:111
+msgid "Acre River"
+msgstr "Río Acre"
+
+#: recursos/0peru/datos/levels.py:154 recursos/0peru/datos/0peru.py:112
+msgid "Iaco River"
+msgstr "Río Iaco"
+
+#: recursos/0peru/datos/levels.py:155 recursos/0peru/datos/0peru.py:113
+msgid "Alto Purús River"
+msgstr "Río Alto Purús"
+
+#: recursos/0peru/datos/levels.py:156 recursos/0peru/datos/0peru.py:114
+msgid "Madre de Dios River"
+msgstr "Río Madre de Dios"
+
+#: recursos/0peru/datos/levels.py:157 recursos/0peru/datos/0peru.py:115
+msgid "Piedras River"
+msgstr "Río Piedras"
+
+#: recursos/0peru/datos/levels.py:158 recursos/0peru/datos/0peru.py:116
+msgid "Inambari River"
+msgstr "Río Inambari"
+
+#: recursos/0peru/datos/levels.py:159 recursos/0peru/datos/0peru.py:117
+msgid "Putumayo River"
+msgstr "Río Putumayo"
+
+#: recursos/0peru/datos/levels.py:160 recursos/0peru/datos/0peru.py:118
+msgid "Marañón River"
+msgstr "Río Marañón"
+
+#: recursos/0peru/datos/levels.py:161 recursos/0peru/datos/0peru.py:119
+msgid "Santiago River"
+msgstr "Río Santiago"
+
+#: recursos/0peru/datos/levels.py:162 recursos/0peru/datos/0peru.py:120
+msgid "Huallaga River"
+msgstr "Río Huallaga"
+
+#: recursos/0peru/datos/levels.py:163 recursos/0peru/datos/0peru.py:121
+msgid "Ucayali River"
+msgstr "Río Ucayali"
+
+#: recursos/0peru/datos/levels.py:164 recursos/0peru/datos/0peru.py:122
+msgid "Urubamba River"
+msgstr "Río Urubamba"
+
+#: recursos/0peru/datos/levels.py:165 recursos/0peru/datos/0peru.py:123
+msgid "Tambo River"
+msgstr "Río Tambo"
+
+#: recursos/0peru/datos/levels.py:166 recursos/0peru/datos/0peru.py:124
+msgid "Apurimac River"
+msgstr "Río Apurimac"
+
+#: recursos/0peru/datos/levels.py:167 recursos/0peru/datos/0peru.py:125
+msgid "Lake Titicaca"
+msgstr "Lago Titicaca"
+
+#: recursos/0peru/datos/levels.py:168 recursos/0peru/datos/0peru.py:126
+msgid "Gulf of Guayaquil"
+msgstr "Golfo de Guayaquil"
+
+#: recursos/0peru/datos/levels.py:169 recursos/0peru/datos/0peru.py:127
+msgid "Sechura Bay"
+msgstr "Bahía Sechura"
+
+#: recursos/0peru/datos/levels.py:170 recursos/0peru/datos/0peru.py:128
+msgid "Pacific Ocean"
+msgstr "Océano Pacífico"
+
+#: recursos/0peru/datos/0peru.py:5
+msgid "Peru"
+msgstr "Perú"
+
+#: recursos/0peru/datos/0peru.py:32
+msgid "Brazil"
+msgstr "Brasil"
+
+#: recursos/0peru/datos/0peru.py:33
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: recursos/0peru/datos/0peru.py:34
+msgid "Colombia"
+msgstr "Colombia"
+
+#: recursos/0peru/datos/0peru.py:35
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: recursos/0peru/datos/0peru.py:134
+msgid "Capital:"
+msgstr "Capital:"
+
+#: recursos/0peru/datos/0peru.py:134
+msgid "(12º02' S - 77º01' W)"
+msgstr "(12º02' S - 77º01' O)"
+
+#: recursos/0peru/datos/0peru.py:135
+msgid "Language:"
+msgstr "Lenguaje:"
+
+#: recursos/0peru/datos/0peru.py:135
+msgid "Spanish"
+msgstr "Español"
+
+#: recursos/0peru/datos/0peru.py:135
+msgid "Quechua"
+msgstr "Quechua"
+
+#: recursos/0peru/datos/0peru.py:135
+msgid "Aimará"
+msgstr "Aimará"
+
+#: recursos/0peru/datos/0peru.py:136
+msgid "Government:"
+msgstr "Gobierno:"
+
+#: recursos/0peru/datos/0peru.py:136
+msgid "Presidential republic"
+msgstr "República presidencial"
+
+#: recursos/0peru/datos/0peru.py:137
+msgid "President:"
+msgstr "Presidente:"
+
+#: recursos/0peru/datos/0peru.py:137
+msgid "Ollanta Humala Tasso"
+msgstr "Ollanta Humala Tasso"
+
+#: recursos/0peru/datos/0peru.py:138
+msgid "Prime Minister:"
+msgstr "Primer Ministro:"
+
+#: recursos/0peru/datos/0peru.py:138
+msgid "Oscar Valdés Dancuart"
+msgstr "Oscar Valdés Dancuart"
+
+#: recursos/0peru/datos/0peru.py:139
+msgid "Independence:"
+msgstr "Independencia:"
+
+#: recursos/0peru/datos/0peru.py:139
+msgid "from Spain"
+msgstr "de España"
+
+#: recursos/0peru/datos/0peru.py:140
+#, python-format
+msgid "declared: %s"
+msgstr "declarada: %s"
+
+#: recursos/0peru/datos/0peru.py:140
+msgid "28 of july of 1821"
+msgstr "28 de julio de 1821"
+
+#: recursos/0peru/datos/0peru.py:141
+#, python-format
+msgid "recognized: %s"
+msgstr "reconocida: %s"
+
+#: recursos/0peru/datos/0peru.py:141
+msgid "14 of august of 1879"
+msgstr "14 de agosto de 1879"
+
+#: recursos/0peru/datos/0peru.py:142
+msgid "Area:"
+msgstr "Superficie:"
+
+#: recursos/0peru/datos/0peru.py:142
+msgid "1.285.216 km² (20th)"
+msgstr "1.285.216 km² (20º)"
+
+#: recursos/0peru/datos/0peru.py:143
+msgid "Population:"
+msgstr "Población:"
+
+#: recursos/0peru/datos/0peru.py:143
+msgid "30.165.000 (40th)"
+msgstr "30.165.000 (40º)"
+
+#: recursos/0peru/datos/0peru.py:144
+msgid "GDP:"
+msgstr "PBI:"
+
+#: recursos/0peru/datos/0peru.py:144
+msgid "USD 299.648 billion (41th)"
+msgstr "USD 299.648 millones (41º)"
+
+#: recursos/0peru/datos/0peru.py:145
+msgid "HDI:"
+msgstr "IDH:"
+
+#: recursos/0peru/datos/0peru.py:145
+msgid "High - 0,723 (63th)"
+msgstr "Alto - 0,723 (63º)"
+
+#: recursos/0peru/datos/0peru.py:146
+msgid "Currency:"
+msgstr "Moneda:"
+
+#: recursos/0peru/datos/0peru.py:146
+msgid "Nuevo sol"
+msgstr "Nuevo sol"
+
+#: recursos/0peru/datos/explorations.py:34
+msgid "Routes"
+msgstr "Rutas"
+
+#: recursos/comun/datos/commons.py:8
+msgid ""
+"What a beautiful world!\n"
+"I will explore that territory.\n"
+"There I go!"
+msgstr ""
+"¡Qué hermoso planeta!\n"
+"Voy a explorar aquel territorio.\n"
+"¡Ahí voy!"
+
+#: recursos/comun/datos/commons.py:9
+msgid ""
+"Oh, no!\n"
+"The ship has problems,\n"
+"I'm going to crash!"
+msgstr ""
+"¡Oh, no!\n"
+"La nave tiene problemas,\n"
+"¡Me voy a estrellar!"
+
+#: recursos/comun/datos/commons.py:10
+msgid ""
+"Luckily I was saved!\n"
+"Now I have to rebuild my ship.\n"
+"Need help!"
+msgstr ""
+"¡Por suerte me salvé!\n"
+"Ahora tengo que reconstruir mi nave.\n"
+"¡Necesito tu ayuda!"
+
+#: recursos/comun/datos/commons.py:14
+msgid "We have to find"
+msgstr "Tenemos que encontrar"
+
+#: recursos/comun/datos/commons.py:15
+msgid "Now we have to find"
+msgstr "Ahora tenemos que encontrar"
+
+#: recursos/comun/datos/commons.py:16
+msgid "We need to find"
+msgstr "Necesitamos encontrar"
+
+#: recursos/comun/datos/commons.py:17
+msgid ""
+"We have to look\n"
+"a piece of my ship in"
+msgstr ""
+"Tenemos que buscar\n"
+"una pieza de mi nave en"
+
+#: recursos/comun/datos/commons.py:18
+msgid ""
+"There's a piece\n"
+"of my ship in"
+msgstr ""
+"Hay una pieza\n"
+"de mi nave en"
+
+#: recursos/comun/datos/commons.py:19
+msgid ""
+"According to my information\n"
+"have to look at"
+msgstr ""
+"De acuerdo a mi información\n"
+"tenemos que buscar en"
+
+#: recursos/comun/datos/commons.py:20
+msgid ""
+"We have to\n"
+"go up"
+msgstr ""
+"Tenemos que\n"
+"ir hasta"
+
+#: recursos/comun/datos/commons.py:21
+msgid ""
+"A piece of my\n"
+"ship fell into"
+msgstr ""
+"Una pieza de mi\n"
+"nave cayó en"
+
+#: recursos/comun/datos/commons.py:25
+msgid "Can you tell me where it is?"
+msgstr "¿Puedes decirme dónde está?"
+
+#: recursos/comun/datos/commons.py:26
+msgid "Where is it?"
+msgstr "¿Dónde está?"
+
+#: recursos/comun/datos/commons.py:27
+msgid "Can you show me where it is?"
+msgstr "¿Puedes mostrarme dónde está?"
+
+#: recursos/comun/datos/commons.py:28
+msgid "Can you find it?"
+msgstr "¿Puedes encontrarlo?"
+
+#: recursos/comun/datos/commons.py:29
+msgid "Are we going up there?"
+msgstr "¿Vamos hasta allí?"
+
+#: recursos/comun/datos/commons.py:33
+msgid "Very well!"
+msgstr "¡Muy bien!"
+
+#: recursos/comun/datos/commons.py:34
+msgid "Brilliant!"
+msgstr "¡Genial!"
+
+#: recursos/comun/datos/commons.py:35
+msgid "You found it!"
+msgstr "¡Lo encontraste!"
+
+#: recursos/comun/datos/commons.py:36
+msgid "Yes!"
+msgstr "¡Si!"
+
+#: recursos/comun/datos/commons.py:40
+msgid "No, that is not correct"
+msgstr "No, ese no es correcto"
+
+#: recursos/comun/datos/commons.py:41
+msgid "No, it is not there"
+msgstr "No, no está ahí"
+
+#: recursos/comun/datos/commons.py:42
+msgid "No, that seems to be wrong"
+msgstr "No, parece que no es correcto"
+
+#: recursos/comun/datos/commons.py:43
+msgid "That is not correct"
+msgstr "Ese no es correcto"
+
+#: recursos/comun/datos/commons.py:44
+msgid "No,  try again"
+msgstr "No, intenta de nuevo"
+
+#: recursos/comun/datos/commons.py:45
+msgid "Seems not here"
+msgstr "Parece que no está ahí"
+
+#: recursos/comun/datos/commons.py:46
+msgid "Keep trying..."
+msgstr "Sigue intentando..."
+
+#: recursos/comun/datos/commons.py:50
+msgid ""
+"Now I can return\n"
+"Farewell to my planet.\n"
+"Thanks for your help!"
+msgstr ""
+"Ahora puedo regresar\n"
+"a mi planeta.\n"
+"¡Gracias por tu ayuda!"
+
+#: recursos/comun/datos/commons.py:51
+msgid ""
+"My ship is ready.\n"
+"Bye and thanks for helping!"
+msgstr ""
+"Mi nave está lista.\n"
+"¡Adiós y gracias por ayudarme!"
+
+#: recursos/comun/datos/commons.py:52
+msgid ""
+"We did it!\n"
+"I'm Ready to take off.\n"
+"Until next time!"
+msgstr ""
+"¡Lo hicimos!\n"
+"Estoy listo para irme.\n"
+"¡Hasta la próxima!"
+
+#: recursos/comun/datos/commons.py:56
+msgid "Author: Ivan Estremadoyro (ivanchhh@gmail.com)"
+msgstr "Autor: Ivan Estremadoyro (ivanchhh@gmail.com)"
+
+#: recursos/comun/datos/commons.py:57
+msgid "Author: Aneesh Dogra (lionaneesh@gmail.com)"
+msgstr "Autor: Aneesh Dogra (lionaneesh@gmail.com)"
+
+#: recursos/comun/datos/commons.py:58
+msgid "Author: Alan Aguiar (alanjas@hotmail.com)"
+msgstr "Autor: Alan Aguiar (alanjas@hotmail.com)"
+
+#: recursos/comun/datos/commons.py:59
+msgid "Send corrections, comments or suggestions"
+msgstr "Enviar correcciones, comentarios o sugerencias"
+
+#: recursos/comun/datos/commons.py:61
+msgid "This program is free software developed by the community"
+msgstr "Este programa es software libre desarrollado por la comunidad"
+
+#: recursos/comun/datos/commons.py:62
+msgid "For more information visit http://ceibaljam.org"
+msgstr "Por mas información visitar: http://ceibaljam.org"
+
+#: recursos/comun/datos/commons.py:64
+msgid "This program is based on 'Conozco Uruguay' (Author: Gabriel Eirea)"
+msgstr "Este programa está basado en 'Conozco Uruguay' (Autor: Gabriel Eirea)"
+
+#: recursos/comun/datos/commons.py:65
+msgid "Sounds downloaded from freesound.org: btn117.wav courtesy of junggle."
+msgstr "Sonidos bajados de freesound.org: btn117.wav cortesía de junggle."
+
+#: recursos/comun/datos/commons.py:66
+msgid "Font: Share-Regular.ttf of urbanfonts.com"
+msgstr "Fuente: Share-Regular.ttf de urbanfonts.com"
