@@ -4,4 +4,4 @@ activity_version = 8
 bundle_id = org.ceibaljam.conozcoperu
 icon = activity
 exec = sugar-activity activity.Activity
-license = GPL+
+license = GPLv2+

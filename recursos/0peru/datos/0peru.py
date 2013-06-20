@@ -135,13 +135,13 @@ STATS = [
     (_('Language:'), _('Spanish') + ' , ' + _('Quechua') + ' , ' + _('Aimará')),
     (_('Government:'), _('Presidential republic')),
     (_('President:'), _('Ollanta Humala Tasso')),
-    (_('Prime Minister:'), _('Oscar Valdés Dancuart')),
+    (_('Prime Minister:'), _('Juan Jiménez Mayor')),
     (_('Independence:'), _('from Spain')),
     ('', _('declared: %s') % _('28 of july of 1821')),
     ('', _('recognized: %s') % _('14 of august of 1879')),
     (_('Area:'), _('1.285.216 km² (20th)')),
     (_('Population:'), _('30.165.000 (40th)')),
-    (_('GDP:'), _('USD 299.648 billion (41th)')),
+    (_('GDP:'), _('USD 200.292 billion (50th)')),
     (_('HDI:'), _('High - 0,723 (63th)')),
     (_('Currency:'), _('Nuevo sol'))
 ]
