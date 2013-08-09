@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Chris Leonard <cjlhomeaddress@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-06-21 00:34-0400\n"
-"PO-Revision-Date: 2013-06-11 03:24+0200\n"
-"Last-Translator: Chris <cjl@laptop.org>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2013-07-10 15:30-0400\n"
+"Last-Translator: Chris Leonard <cjlhomeaddress@gmail.com>\n"
+"Language-Team: Sugar Labs\n"
+"Language: mi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #. TRANS: "name" option from activity.info file
 #. TRANS: "summary" option from activity.info file
@@ -54,6 +54,8 @@ msgid ""
 "the province of\n"
 "%s"
 msgstr ""
+"te porowini o\n"
+"ngā %s"
 
 #: conozcouy.py:473
 #, python-format
@@ -61,6 +63,8 @@ msgid ""
 "the district of\n"
 "%s"
 msgstr ""
+"te takiwā o\n"
+"ngā %s"
 
 #: conozcouy.py:476
 #, python-format
@@ -68,6 +72,8 @@ msgid ""
 "the state of\n"
 "%s"
 msgstr ""
+"te wāhi whenua o\n"
+"ngā %s"
 
 #: conozcouy.py:479
 #, python-format
@@ -75,6 +81,8 @@ msgid ""
 "the region of\n"
 "%s"
 msgstr ""
+"te rohe o\n"
+"%s"
 
 #: conozcouy.py:482
 #, python-format
@@ -82,6 +90,8 @@ msgid ""
 "the parish of\n"
 "%s"
 msgstr ""
+"te pāriha o\n"
+"ngā %s"
 
 #: conozcouy.py:485
 #, python-format
@@ -89,6 +99,8 @@ msgid ""
 "the taluka of\n"
 "%s"
 msgstr ""
+"te taluka o\n"
+"%s"
 
 #: conozcouy.py:488
 #, python-format
@@ -96,11 +108,13 @@ msgid ""
 "the municipality of\n"
 "%s"
 msgstr ""
+"te rohe pōti o\n"
+"ngā %s"
 
 #: conozcouy.py:491
 #, python-format
 msgid "the %s"
-msgstr ""
+msgstr "ngā %s"
 
 #: conozcouy.py:494
 #, python-format
@@ -115,99 +129,93 @@ msgstr ""
 #: conozcouy.py:552
 #, python-format
 msgid "About %s"
-msgstr ""
+msgstr "Mōku Ake %s"
 
 #: conozcouy.py:566
 msgid "Press any key to return"
-msgstr ""
+msgstr "Pēhia tētahi pātuhi kia hoki anō"
 
 #: conozcouy.py:597
 msgid "You have chosen the map "
-msgstr ""
+msgstr "Kua kōwhiria e koe te mahere "
 
 #: conozcouy.py:603
 msgid "Play"
-msgstr ""
+msgstr "Tākaro"
 
 #: conozcouy.py:619
 msgid "Explore"
-msgstr ""
+msgstr "Tūhura"
 
 #: conozcouy.py:639 conozcouy.py:783
 msgid "About this game"
-msgstr ""
+msgstr "Mō tēnei tākaro"
 
 #: conozcouy.py:647
 msgid "Return"
-msgstr ""
+msgstr "Whakahokia"
 
 #: conozcouy.py:704
 msgid "Choose the map to use"
-msgstr ""
+msgstr "Kōwhiria te mahere hei whakamahi"
 
 #: conozcouy.py:724
 msgid "Previous page"
-msgstr ""
+msgstr "Whārangi tōmua"
 
 #: conozcouy.py:769
 msgid "Next page"
-msgstr ""
+msgstr "Whārangi panuku"
 
 #: conozcouy.py:790
 msgid "Exit"
-msgstr ""
+msgstr "Putaatu"
 
 #: conozcouy.py:1272
 msgid "End"
-msgstr ""
+msgstr "Mutu"
 
 #: conozcouy.py:1283
 msgid "Show all"
-msgstr ""
+msgstr "Whakaatu te katoa"
 
 #: conozcouy.py:1612 conozcouy.py:1868
 msgid "Press any key to skip"
 msgstr ""
 
 #: recursos/0peru/datos/0peru.py:5
-#, fuzzy
 msgid "Peru"
-msgstr "Peru"
+msgstr "Perū"
 
 #: recursos/0peru/datos/0peru.py:8 recursos/0peru/datos/0peru.py:63
 #: recursos/0peru/datos/levels.py:11 recursos/0peru/datos/levels.py:68
 #: recursos/0peru/datos/levels.py:102
-#, fuzzy
 msgid "Tumbes"
-msgstr "Tumbes"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:9 recursos/0peru/datos/levels.py:12
-#, fuzzy
 msgid "Loreto"
-msgstr "Loreto"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:10 recursos/0peru/datos/0peru.py:57
 #: recursos/0peru/datos/levels.py:13 recursos/0peru/datos/levels.py:62
 #: recursos/0peru/datos/levels.py:96
-#, fuzzy
 msgid "Piura"
-msgstr "Piura"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:11 recursos/0peru/datos/levels.py:14
 msgid "Amazonas"
-msgstr "Amazonas"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:12 recursos/0peru/datos/0peru.py:43
 #: recursos/0peru/datos/levels.py:15 recursos/0peru/datos/levels.py:48
 #: recursos/0peru/datos/levels.py:82
-#, fuzzy
 msgid "Cajamarca"
-msgstr "Cajamarca"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:13 recursos/0peru/datos/levels.py:16
-#, fuzzy
 msgid "Lambayeque"
-msgstr "Lambayeque"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:14 recursos/0peru/datos/levels.py:17
 msgid "San Martín"
@@ -215,105 +223,93 @@ msgstr ""
 
 #: recursos/0peru/datos/0peru.py:15 recursos/0peru/datos/levels.py:18
 msgid "La Libertad"
-msgstr "La Libertad"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:16 recursos/0peru/datos/levels.py:19
-#, fuzzy
 msgid "Ancash"
-msgstr "Ancash"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:17 recursos/0peru/datos/levels.py:20
-#, fuzzy
 msgid "Huanuco"
-msgstr "Huanuco"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:18 recursos/0peru/datos/0peru.py:39
 #: recursos/0peru/datos/0peru.py:134 recursos/0peru/datos/levels.py:21
 #: recursos/0peru/datos/levels.py:44 recursos/0peru/datos/levels.py:78
 msgid "Lima"
-msgstr "Lima"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:19 recursos/0peru/datos/0peru.py:45
 #: recursos/0peru/datos/levels.py:22 recursos/0peru/datos/levels.py:50
 #: recursos/0peru/datos/levels.py:84
-#, fuzzy
 msgid "Cerro de Pasco"
-msgstr "Cerro de Pasco"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:20 recursos/0peru/datos/levels.py:23
 msgid "Junín"
-msgstr "Junín"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:21 recursos/0peru/datos/levels.py:24
-#, fuzzy
 msgid "Ucayali"
-msgstr "Ucayali"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:22 recursos/0peru/datos/levels.py:25
 msgid "Madre de Dios"
 msgstr ""
 
 #: recursos/0peru/datos/0peru.py:23 recursos/0peru/datos/levels.py:26
-#, fuzzy
 msgid "Cuzco"
-msgstr "Cuzco"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:24 recursos/0peru/datos/0peru.py:53
 #: recursos/0peru/datos/levels.py:27 recursos/0peru/datos/levels.py:58
 #: recursos/0peru/datos/levels.py:92
-#, fuzzy
 msgid "Ica"
-msgstr "Ica"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:25 recursos/0peru/datos/0peru.py:50
 #: recursos/0peru/datos/levels.py:28 recursos/0peru/datos/levels.py:55
 #: recursos/0peru/datos/levels.py:89
-#, fuzzy
 msgid "Huancavelica"
-msgstr "Huancavelica"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:26 recursos/0peru/datos/0peru.py:42
 #: recursos/0peru/datos/levels.py:29 recursos/0peru/datos/levels.py:47
 #: recursos/0peru/datos/levels.py:81
-#, fuzzy
 msgid "Ayacucho"
-msgstr "Ayacucho"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:27 recursos/0peru/datos/0peru.py:41
 #: recursos/0peru/datos/levels.py:30 recursos/0peru/datos/levels.py:46
 #: recursos/0peru/datos/levels.py:80
 msgid "Arequipa"
-msgstr "Arequipa"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:28 recursos/0peru/datos/levels.py:31
-#, fuzzy
 msgid "Apurimac"
-msgstr "Apurimac"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:29 recursos/0peru/datos/0peru.py:60
 #: recursos/0peru/datos/levels.py:32 recursos/0peru/datos/levels.py:65
 #: recursos/0peru/datos/levels.py:99
-#, fuzzy
 msgid "Puno"
-msgstr "Puno"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:30 recursos/0peru/datos/0peru.py:55
 #: recursos/0peru/datos/levels.py:33 recursos/0peru/datos/levels.py:60
 #: recursos/0peru/datos/levels.py:94
-#, fuzzy
 msgid "Moquegua"
-msgstr "Moquegua"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:31 recursos/0peru/datos/0peru.py:61
 #: recursos/0peru/datos/levels.py:34 recursos/0peru/datos/levels.py:66
 #: recursos/0peru/datos/levels.py:100
-#, fuzzy
 msgid "Tacna"
-msgstr "Tacna"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:32
 msgid "Brazil"
-msgstr ""
+msgstr "Parīhi"
 
 #: recursos/0peru/datos/0peru.py:33
 msgid "Ecuador"
@@ -321,262 +317,221 @@ msgstr "Ekuatoa"
 
 #: recursos/0peru/datos/0peru.py:34
 msgid "Colombia"
-msgstr "Korōmopia"
+msgstr "Koromōpia"
 
 #: recursos/0peru/datos/0peru.py:35
 msgid "Bolivia"
-msgstr ""
+msgstr "Poriwia"
 
 #: recursos/0peru/datos/0peru.py:40 recursos/0peru/datos/levels.py:45
 #: recursos/0peru/datos/levels.py:79
-#, fuzzy
 msgid "Abancay"
-msgstr "Abancay"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:44 recursos/0peru/datos/levels.py:49
 #: recursos/0peru/datos/levels.py:83
-#, fuzzy
 msgid "Callao"
-msgstr "Callao"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:46 recursos/0peru/datos/levels.py:51
 #: recursos/0peru/datos/levels.py:85
-#, fuzzy
 msgid "Chachapoyas"
-msgstr "Chachapoyas"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:47 recursos/0peru/datos/levels.py:52
 #: recursos/0peru/datos/levels.py:86
-#, fuzzy
 msgid "Chiclayo"
-msgstr "Chiclayo"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:48 recursos/0peru/datos/levels.py:53
 #: recursos/0peru/datos/levels.py:87
-#, fuzzy
 msgid "Cusco"
-msgstr "Cusco"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:49 recursos/0peru/datos/levels.py:54
 #: recursos/0peru/datos/levels.py:88
-#, fuzzy
 msgid "Huánuco"
-msgstr "Huánuco"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:51 recursos/0peru/datos/levels.py:56
 #: recursos/0peru/datos/levels.py:90
-#, fuzzy
 msgid "Huancayo"
-msgstr "Huancayo"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:52 recursos/0peru/datos/levels.py:57
 #: recursos/0peru/datos/levels.py:91
-#, fuzzy
 msgid "Huaraz"
-msgstr "Huaraz"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:54 recursos/0peru/datos/levels.py:59
 #: recursos/0peru/datos/levels.py:93
 msgid "Iquitos"
-msgstr "Iquitos"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:56 recursos/0peru/datos/levels.py:61
 #: recursos/0peru/datos/levels.py:95
-#, fuzzy
 msgid "Moyobamba"
-msgstr "Moyobamba"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:58 recursos/0peru/datos/levels.py:63
 #: recursos/0peru/datos/levels.py:97
-#, fuzzy
 msgid "Pucallpa"
-msgstr "Pucallpa"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:59 recursos/0peru/datos/levels.py:64
 #: recursos/0peru/datos/levels.py:98
-#, fuzzy
 msgid "Puerto Maldonado"
-msgstr "Puerto Maldonado"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:62 recursos/0peru/datos/levels.py:67
 #: recursos/0peru/datos/levels.py:101
 msgid "Trujillo"
-msgstr "Trujillo"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:67 recursos/0peru/datos/levels.py:103
-#, fuzzy
 msgid "Azángaro"
-msgstr "Azángaro"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:68 recursos/0peru/datos/levels.py:104
-#, fuzzy
 msgid "Bagua"
-msgstr "Bagua"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:69 recursos/0peru/datos/levels.py:105
-#, fuzzy
 msgid "Barranca"
-msgstr "Barranca"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:70 recursos/0peru/datos/levels.py:106
-#, fuzzy
 msgid "Caballococha"
-msgstr "Caballococha"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:71 recursos/0peru/datos/levels.py:107
-#, fuzzy
 msgid "Camana"
-msgstr "Camana"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:72 recursos/0peru/datos/levels.py:108
-#, fuzzy
 msgid "Caraveli"
-msgstr "Caraveli"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:73 recursos/0peru/datos/levels.py:109
-#, fuzzy
 msgid "Casma"
-msgstr "Casma"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:74 recursos/0peru/datos/levels.py:110
-#, fuzzy
 msgid "Chimbote"
-msgstr "Chimbote"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:75 recursos/0peru/datos/levels.py:111
-#, fuzzy
 msgid "Chincha Alta"
-msgstr "Chincha Alta"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:76 recursos/0peru/datos/levels.py:112
-#, fuzzy
 msgid "Contamana"
-msgstr "Contamana"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:77 recursos/0peru/datos/levels.py:113
-#, fuzzy
 msgid "Coracora"
-msgstr "Coracora"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:78 recursos/0peru/datos/levels.py:114
-#, fuzzy
 msgid "Cotahuasi"
-msgstr "Cotahuasi"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:79 recursos/0peru/datos/levels.py:115
-#, fuzzy
 msgid "Flor de Agosto"
-msgstr "Flor de Agosto"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:80 recursos/0peru/datos/levels.py:116
-#, fuzzy
 msgid "Huacho"
-msgstr "Huacho"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:81 recursos/0peru/datos/levels.py:117
-#, fuzzy
 msgid "Huarmey"
-msgstr "Huarmey"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:82 recursos/0peru/datos/levels.py:118
-#, fuzzy
 msgid "Iñapari"
-msgstr "Iñapari"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:83 recursos/0peru/datos/levels.py:119
-#, fuzzy
 msgid "Juliaca"
-msgstr "Juliaca"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:84 recursos/0peru/datos/levels.py:120
-#, fuzzy
 msgid "La Oroya"
-msgstr "La Oroya"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:85 recursos/0peru/datos/levels.py:121
-#, fuzzy
 msgid "Macusani"
-msgstr "Macusani"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:86 recursos/0peru/datos/levels.py:122
-#, fuzzy
 msgid "Manú"
-msgstr "Manú"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:87 recursos/0peru/datos/levels.py:123
-#, fuzzy
 msgid "Mollendo"
-msgstr "Mollendo"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:88 recursos/0peru/datos/levels.py:124
-#, fuzzy
 msgid "Nauta"
-msgstr "Nauta"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:89 recursos/0peru/datos/levels.py:125
-#, fuzzy
 msgid "Nazca"
-msgstr "Nazca"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:90 recursos/0peru/datos/levels.py:126
-#, fuzzy
 msgid "Palpa"
-msgstr "Palpa"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:91 recursos/0peru/datos/levels.py:127
-#, fuzzy
 msgid "Pisco"
-msgstr "Pisco"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:92 recursos/0peru/datos/levels.py:128
-#, fuzzy
 msgid "Puerto Inca"
-msgstr "Puerto Inca"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:93 recursos/0peru/datos/levels.py:129
-#, fuzzy
 msgid "Requena"
-msgstr "Requena"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:94 recursos/0peru/datos/levels.py:130
-#, fuzzy
 msgid "San Pedro de Lloc"
-msgstr "San Pedro de Lloc"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:95 recursos/0peru/datos/levels.py:131
-#, fuzzy
 msgid "San Vicente de Cañete"
-msgstr "San Vicente de Cañete"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:96 recursos/0peru/datos/levels.py:132
-#, fuzzy
 msgid "Sullana"
-msgstr "Sullana"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:97 recursos/0peru/datos/levels.py:133
-#, fuzzy
 msgid "Talara"
-msgstr "Talara"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:98 recursos/0peru/datos/levels.py:134
-#, fuzzy
 msgid "Tarapoto"
-msgstr "Tarapoto"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:99 recursos/0peru/datos/levels.py:135
-#, fuzzy
 msgid "Tingo Maria"
-msgstr "Tingo Maria"
+msgstr ""
 
 #: recursos/0peru/datos/0peru.py:103 recursos/0peru/datos/levels.py:145
+#, fuzzy
 msgid "Napo River"
 msgstr "Te Awa o Napo"
 
 #: recursos/0peru/datos/0peru.py:104 recursos/0peru/datos/levels.py:146
+#, fuzzy
 msgid "Curaray River"
 msgstr "Te Awa o Curaray"
 
 #: recursos/0peru/datos/0peru.py:105 recursos/0peru/datos/levels.py:147
+#, fuzzy
 msgid "Tigre River"
 msgstr "Te Awa o Tigre"
 
