@@ -1,7 +1,8 @@
 [Activity]
 name = I know Peru
-activity_version = 8
+activity_version = 9
 bundle_id = org.ceibaljam.conozcoperu
 icon = activity
 exec = sugar-activity activity.Activity
 license = GPLv2+
+summary = Game about the geography of Peru
