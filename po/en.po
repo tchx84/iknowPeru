@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-21 00:34-0400\n"
-"PO-Revision-Date: 2013-06-27 08:28+0200\n"
+"POT-Creation-Date: 2013-10-17 00:31-0400\n"
+"PO-Revision-Date: 2013-10-18 01:52+0200\n"
 "Last-Translator: Chris <cjl@laptop.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: en\n"
@@ -18,11 +18,14 @@ msgstr ""
 "X-Generator: Pootle 2.0.5\n"
 
 #. TRANS: "name" option from activity.info file
-#. TRANS: "summary" option from activity.info file
-#. TRANS: "description" option from activity.info file
 #: recursos/comun/datos/commons.py:5
 msgid "I know Peru"
 msgstr "I know Peru"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid "Game about the geography of Peru"
+msgstr "Game about the geography of Peru"
 
 #: conozcouy.py:239 conozcouy.py:356 conozcouy.py:379 conozcouy.py:431
 #: conozcouy.py:517
