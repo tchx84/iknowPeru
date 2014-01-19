@@ -13,16 +13,9 @@ class Activity(activity.Activity):
         activity.Activity.__init__(self, handle)
 
         self.max_participants = 1
-        self.actividad = conozcouy.ConozcoUy()
+        self.actividad = conozcouy.ConozcoUy(self)
         self._pygamecanvas = sugargame.canvas.PygameCanvas(self)
         self.set_canvas(self._pygamecanvas)
         self._pygamecanvas.grab_focus()
         self._pygamecanvas.run_pygame(self.actividad.principal)
-
-
-    def read_file(self, file_path):
-        pass
-        
-    def write_file(self, file_path):
-        pass
 
